@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by John Doe (ACME Inc.) -->
+<MediaSignage_FAQs>
+	<Topic data="Hardware and software setup">
+		<Question data="How do I turn On / Off the mediaDROID?">
+			<Answer data="The mediaDROID is powered by a micro USB. If you plug the Micro USB to your screen's USB port, simply turn the screen OFF and the mediaDROID will turn off as well. Turn the screen on and the mediaDROID will turn on, it's that simple. If you screen does not have a FREE USB port, use the supplied 120/240V power supply to power cycle the device."/>
+		</Question>
+		<Question data="How do I connect the mediaDROID to a power source?">
+			<Answer data="Connect the HDMI port of the mediaDROID to your screen. Also connect a USB mouse 
+(not supplied) to the mediaDROID's standard USB port. If you have a USB Hub, you can connect  a standard keyboard, mouse and Ethernet dongle simultaneously.
+The mediaDROID gets its power from a micro USB port. Connect the supplied micro USB cable to the mediaDROID and the other end of the USB cable to your screen's USB port (if it has one), or to the supplied 120V/240V power adapter.  
+"/>
+		</Question>
+		<Question data="How do I setup the mediaDROID?">
+			<Answer data="When the mediaDROID is turned on, it will auto launch the SignageController and SignagePlayer. 
+You will see a message indicating that the SignagePlayer is 'Checking Internet Connection...'.  With the mouse RIGHT click 2 times to go back to the [HOME SCREEN]. Next, connect the mediaDROID to the Internet. You can use the internal WIFI module or an  external USB Ethernet dongle (sold separately). From the [HOME SCREEN] select Apps > Settings > Wifi or Ethernet tabs to configure the connection to a local WIFI / Ethernet switch.  You can use the Google  browser App from the [HOME SCREEN] to check the connection.
+"/>
+		</Question>
+		<Question data="How do I register the mediaDROID?">
+			<Answer data="Reboot the mediaDROID (unplug and re-connect the micro USB), this will auto launch the SignageController which in turn auto starts the SignagePlayer.  Register the SignagePlayer with your mediaCLOUD User name and Password.  Launch the SignageStudio and begin remote managing your presentation. "/>
+		</Question>
+		<Question data="What is the function of the SignageController? ">
+			<Answer data="The SignageController uses a live socket connection to the SignagePlayer to verify it is working properly. If the SignagePlayer is frozen, the SignageController will kill the Player application and launce it again. The SignageController is also responsible for launching the SignagePlayer on bootup."/>
+		</Question>
+		<Question data="How do I navigate the android OS?">
+			<Answer data="The mediaDROID supports a standard USB keyboard and mouse. It is supplied only with a single USB port so you will need to connect a USB hub if you wish to connect both keyboard and mouse at the same time. If you choose to plug just one device, connect a mouse and use the Androids virtual keyboard . "/>
+		</Question>
+		<Question data="What are the recommended reboot conditions for the mediaDROID?">
+			<Answer data="The mediaDROID supports 2 daily reboots for the Android SignagePlayer App. A daily reboot comes handy if you are running a heavy presentation and wish to clear all memory and CPU buffers every X number of hours. For example, if your business is open from 9AM in the morning to 7PM in the evening, you may choose to reboot the mediaDROID every morning at 8:50 (10 minutes before the business opens) and again at 2AM at night to ensure a continuous running player (unless you manually shut off the TV which will also turn off the mediaDROID). To configure your first daily reboot at 8:50 AM set the SignageStudio > Stations > selected Station > Reboot conditions to 8:50 AM. To configure the 2nd daily reboot, set the SignageStudio > Stations > selected station >  Power savings for 2:00 AM for everyday of the week."/>
+		</Question>
+		<Question data="What happens when I turn the mediaDROID on?">
+			<Answer data="The mediaDROID is set to automatically launch the SignageController which in turn launches the SignagePlayer. If you are using the USB from the Screen to power the mediaDROID, simply turn the screen on and the presentation will start within 10-20 seconds."/>
+		</Question>
+		<Question data="What's the best way to start the SignagePlayer on the mediaDROID?">
+			<Answer data="For best practice it's recommended you power cycle the device and let the SignageController auto launch the SignagePlayer. This will ensure proper socket connection between the SignageController and SignagePlayer. The socket connection between the SignageController and SignagePlayer is used to confirm the health status of the SignagePlayer."/>
+		</Question>
+	</Topic>
+	<Topic data="Device configuration">
+		<Question data="What screen resolution does the mediaDROID support?">
+			<Answer data="The mediaDROID can be configured through Apps > settings to both 1920x1080 as well as 1280x720. However, content should always be created at 1280x720 as this is the only Stage width and height that is set by the SignagePlayer."/>
+		</Question>
+		<Question data="I created HD content but it scales down, how can this be fixed?">
+			<Answer data="The mediaDROID always outputs at 1280x720 and so content (especially bitmap images) should be created for that size to avoid pixilation and content skewing."/>
+		</Question>
+		<Question data="What components are supported when building my presentation for the mediaDROID?">
+			<Answer data="The mediaDROID supports the full set of features just like the SignagePlayer Desktop version. 
+As for components, the mediaDROID supports the entire component list except for Facebook. 
+"/>
+		</Question>
+		<Question data="Does the mediaDROID support presentation Interactivity?">
+			<Answer data="While the mediaDROID support mouse and key navigation, it is designed to operate in Digital Signage mode only (Kiosk) and not used for interaction due its low end processer. For touch capable presentations we recommend the mediaBOX."/>
+		</Question>
+		<Question data="What video format should I use for best results?">
+			<Answer data="The recommended video format is 460P or lower resolution. We recommend FLV (Flash Video) with MP3 audio encoding. If you want to try good quality video clips to test the performance of the device you can download: http://www.digitalsignage.com/videos/GoProRace.flv or http://www.digitalsignage.com/videos/KawasakiJetSki.flv or http://www.digitalsignage.com/videos/YamahaWaveRunner.flv as sample files...
+Download it, upload it to resources, and run it in full screen mode to check the performance. With Flash Videos (FLV) set at 460P you will enjoy 30FPS smooth playback. At 20ft away from the screen 460P will seem very much like high definition. If you have HD content that you wish to reduce its quality (to increase performance), you can use the freeware application freemake from: http://www.freemake.com/free_video_converter/ and recode the videos.
+"/>
+		</Question>
+		<Question data="Does the mediaDROID support HD images?">
+			<Answer data="Yes, the mediaDROID runs high definition 32bit images as well as the rest of the components that are part of the SignagePlayer. Many location use Digital Signage with just images (such as food menu boards and building directories) and the mediaDROID is definitely a good choice for such deployments. It is pre-installed with the full version of the SignagePlayer App. "/>
+		</Question>
+		<Question data="Can I use the mediaDROID for food menu board?">
+			<Answer data="The mediaDROID runs all Scenes built in the SignageStudio and so it is a perfect solution for food menu boards. You can also use 32bit static images if you wish. With the mediaDROID you take the full advantage of the SignageStudio creation suit."/>
+		</Question>
+		<Question data="I imported some of the premade scenes but they don't look right, why?">
+			<Answer data="Most of the pre-made scenes in the SignageStudio were created for a resolution of 1920x1080. For a perfect fit, scale down the imported scenes to 1280x720. Be sure to move the resources around the scene to position everything according to the new resolution."/>
+		</Question>
+		<Question data="How much storage is available on the mediaDROID?">
+			<Answer data="The mediaDROID has a total of 4GB, 2.5GB of that can be used for local campaign caching. It is powered by an intelligent caching mechanism that will remove unnecessary files, so it can accommodate best caching techniques for the current running campaign."/>
+		</Question>
+		<Question data="Does the mediaDROID support landscape and portrait modes?">
+			<Answer data="The mediaDROID ZXh only supports landscape mode (aka horizontal mode) and the mediaDROID ZXv only supports portrait mode (aka vertical mode). You don't need any special screen; simply tilt any HDMI screen to view in proper orientation per device ordered. Create the presentation at 1280x720 and the device will take care of rotating the presentation for you."/>
+		</Question>
+	</Topic>
+	<Topic data="Remote software updates">
+		<Question data="How does the SignagePlayer update MINOR software release updates?">
+			<Answer data="The SignagePlayer app for the mediaDROID is built using dynamic loadable modules which get downloaded from our servers and stored locally on the mediaDROID. This means that any new software release is automatically applied."/>
+		</Question>
+		<Question data="How does the SignagePlayer update MAJOR software release updates?">
+			<Answer data="In order for you to ensure you are always running the latest version of the SignagePlayer Android App, you must register with Google Play and update the software from the Google play store. You must also select the checkbox for automatic updates. Follow these procedures:
+1.	Go to the Android home screen
+2.	Open the Google browser (Google button on home screen)
+3.	In the browser type http://android.digitalsignage.com
+4.	Register with Google Play store (you can also login with a Gmail account)
+5.	From the popup dialog, select to open page in Google Play
+6.	In the Google play select [Update] to downloaded the latest version of the SignagePlayer App
+7.	Click the [x] checkbox to allow automatic future updates
+From this point on you will be able to push to the latest major software build updates over the web from your Google Play store account.
+"/>
+		</Question>
+		<Question data="How can I manage the presentation remotely?">
+			<Answer data="The mediaDROID needs to connect to the internet through your local area network (just like any other PC).  It has a built in Wi-Fi module so you can connect to your local Wi-Fi switch or router.  You can also purchase an external Ethernet dongle and connect to your LAN over Cat-5. Once connected to the internet, you will be able to fully manage your presentation from the SignageStudio > Stations module."/>
+		</Question>
+	</Topic>
+	<Topic data="Troubleshooting">
+		<Question data="I uploaded a video but I get no sound, how can I fix it?">
+			<Answer data="The mediaDROID is installed with an MP3 encoder, so encode your videos with MP3 and not AAC, so you can hear the audio over the HDMI port."/>
+		</Question>
+		<Question data="I ran a presentation and now I get a message of 'App is not responding', why is that?">
+			<Answer data="The mediaDROID is a low end device and should be treated as such. If you overload your presentation the CPU will be too busy to respond to the OS broadcast messages and Controller pings and the ANR (Android not responding) message will remain on the screen indefinitely, until the device is power cycled. It is recommended you build a clean presentation and test your content to make sure it plays nice with the mediaDROID."/>
+		</Question>
+		<Question data="My presentation freezes after a while, what could cause this?">
+			<Answer data="There are several reasons why a presentation could freeze including an overloaded CPU, Video running with improper audio encoding or a swf that leaks memory. However, you should know that if the presentation freezes for any reason, the SignageController will detect this and restart the presentation within 2.5 minutes. If a presentation freezes it will be recovered by SignageController. However, if you build highly demanding presentation (high CPU load) you may receive an 'Android not responding' message which means you must lighten the load of the presentation or upgrade to a stronger device such as the mediaBOX."/>
+		</Question>
+		<Question data="I turned the device on and all I see is 'Checking internet connection', now what?">
+			<Answer data="The first thing you should do is connect a mouse. Next, RIGHT click the mouse button two times to go back to the Home Screen.  Next select Apps > Settings and configure Wi-Fi or Ethernet networking. Now reboot the device and Register the SignagePlayer to the mediaCLOUD."/>
+		</Question>
+		<Question data="I dont understand how to navigate the mediaDROID?">
+			<Answer data="You can use a standard USB mouse to make selections. Use the left mouse button to select and the right mouse button to go back to a previous screen. If you connect only a mouse you will need to use the virtual keyboard to type. Alternatively you may connect a USB hub and connect to it a mouse, keyboard and an Ethernet dongle. If you purchased the Flymouse (sold separately) you can use it for both mouse and keyboard interaction; remember to connect the Flymouse Bluetooth RX/TX module to the mediaDROID before using the Flymouse. If you plugged in a standard keyboard to the mediaDROID you may use the keyboard's [HOME] button (if it has one) to go back to the mediaDROID home screen. "/>
+		</Question>
+		<Question data="It take a long time to download the presentation, why is that?">
+			<Answer data="The mediaDROID can connect to the internet via Wi-Fi or Ethernet. If you use Ethernet (Ethernet dongle sold separately) you will enjoy extremely fast download times. However, Wi-Fi  connection requires a good nearby wireless hotspot to operate smoothly. If your Wi-Fi connection is slow, we highly recommend that you get the Ethernet dongle and enjoy quick response times."/>
+		</Question>
+		<Question data="How do I clear the cache manually and unregister an account?">
+			<Answer data="To clear the SignagePlayers data including the account registration go to Apps > Settings > Apps tab > SignagePlayer > click on Force stop and Clear Data"/>
+		</Question>
+		<Question data="Where are the files saved on the device?">
+			<Answer data="The SignagePlayer caches the files on the SDCard at /mnt/sdcard/SignagePlayer directory"/>
+		</Question>
+	</Topic>
+</MediaSignage_FAQs>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by John Doe (ACME Inc.) -->
+<features>
+	<columnTitles>
+		<column>mediaBOX - Ubuntu vs W7e (Windows 7 Embedded)</column>
+		<column>
+      Ubuntu&lt;br/&gt;
+      &lt;span style=&quot;font-size: 10px; color: rgb(0, 0, 0);&quot;&gt;Open Linux / UNIX version&lt;/span&gt;
+    </column>
+		<column>
+      W7e&lt;br/&gt;
+      &lt;span style=&quot;font-size: 10px;&quot;&gt;Windows Embedded&lt;/span&gt;
+    </column>
+	</columnTitles>
+	<featureGroup name="Digital Signage and Kiosk compact Player">
+		<feature name="Price (based on mediaBOX-100)">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">$499.00</cell>
+			<cell checked="0" bold="1" isBlue="1" isGreen="0">$595.00</cell>
+			<extra>Choose between the open source Linux / Ubuntu or Microsoft Windows. We do recommend Windows as you do get hardware acceleration, Live TV support and other benefits. </extra>
+		</feature>
+		<feature name="Reliability">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Both Windows and Ubuntu are extremely reliable and both OSs are powered by the SignageController so are sure to have a Player that’s up 24x7 with full remote management</extra>
+		</feature>
+		<feature name="Optimized OS for SignagePlayer">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Both units ship as Plug and Play devices and come with special baked OS (Ubuntu and Windows 7 Embedded) designed by MediaSignage engineers to deliver the best performance for you presentation. We also eliminate any OS balloon pop ups, firewalls warnings and other annoying Alerts. The unit is designed to just, WORK!</extra>
+		</feature>
+		<feature name="Ships as a plug and play device">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Unwrap the device, plug-in any screen, temporary keyboard and mouse, register the SignagePlayer with the same user name and password as your SignageStudio login, and you are done!</extra>
+		</feature>
+		<feature name="Remote management">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Windows and Ubuntu support live socket communication, remote snapshots and HTTP fall back</extra>
+		</feature>
+		<feature name="Video hardware acceleration (HD)">
+			<cell checked="0" bold="0" isBlue="1" isGreen="0"/>
+			<cell checked="1" bold="1" isBlue="0" isGreen="1"/>
+			<extra>W7e (Windows 7 Embedded) supports GPU hardware acceleration so High Definition videos are processed by the powerful onboard chipset and deliver super smooth HD H.264 video rendering</extra>
+		</feature>
+		<feature name="Auto turn on after power outage">
+			<cell checked="0" bold="1" isBlue="1" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>The W7e has a special BIOS feature allowing a daily turn ON and turn OFF . This will extend the lifespan of the unit and help save on overall power consumption.</extra>
+		</feature>
+		<feature name="Live TV / Capture / Tuner">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>The mediaTV is an optional accessory (sold separately) that is supported only on the Windows W7e (Windows 7 Embedded) version and allow you to plug in Live TV from S-Video, composite, component, HDMI, Tuner card and other inputs.  See here for more:  http://mediasignage.com/html/mediatv.html</extra>
+		</feature>
+		<feature name="Wifi booster">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Stronger WIFI signal and no connection drops.</extra>
+		</feature>
+		<feature name="External application and Power point">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Configure external applications such as Power Point, VLC or other EXEs that can be embedded directly onto a specified screen division</extra>
+		</feature>
+	</featureGroup>
+</features>

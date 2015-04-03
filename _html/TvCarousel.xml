@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carousel showProjectTab="true">
+	<slide img="http://mediasignage.com/assets/images/TV1.png" hideProject="true">
+		<project title="First">
+      Lorem ipsum dolor sit amet dsuhdsiu dfui ydfiudf7iu dfiu dfui dfjyhdf yudf ujy xhj fxhufhuif biuo 
+    </project>
+	</slide>
+	<slide img="http://mediasignage.com/assets/images/TV2.png" hideProject="true">
+		<project title="Details">
+      Loremlk su sauis gs shs uias uisa ipsum dolor sit amet
+    </project>
+	</slide>
+	<slide img="http://mediasignage.com/assets/images/TV24.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV22.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV3.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV4.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV5.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV6.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV25.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV26.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV27.png" hideProject="true"/>	
+	<slide img="http://mediasignage.com/assets/images/TV7.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV23.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV8.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV9.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV10.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV11.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV12.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV13.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV14.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV15.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV16.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV17.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV18.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV19.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV20.png" hideProject="true"/>
+	<slide img="http://mediasignage.com/assets/images/TV21.png" hideProject="true"/>
+</carousel>

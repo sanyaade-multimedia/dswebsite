@@ -1,0 +1,223 @@
+/************************STYLE STYLES*************************************/
+/*---------------------------------------------------------------------*
+//* Build Date: 13 Feb 2015*/
+/*  Author: Inceptive*/
+/*  URL: http://www.inceptivebd.com */
+/*---------------------------------------------------------------------*/
+*{margin:0px;padding:0px;outline:none;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+
+/****************************body************************************/
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #fff;
+}
+body, input, textarea {
+	font: 14px 'Lato', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 19px;
+	color: #000;
+}
+img {
+	vertical-align:top;
+	}
+embed {
+	vertical-align:top;
+	}
+article, aside, audio, canvas, command, datalist, details, embed, 
+figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {	display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+fieldset, img { border: 0;}  
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, 
+meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+
+/***************** Headings *****************************************/
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	color: #000;
+}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a { 
+	color: inherit;
+}
+h1{ 
+	font-size: 40px; 
+	line-height: 40px;
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 300;
+}
+h2 { 
+	font-size: 35px; 
+	line-height: 35px;
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 300;
+}
+h3 { 
+	font-size: 27px; 
+	line-height: 30px;
+	margin-bottom: 18px;
+	font-style: normal;
+}
+h4 { 
+	font-size: 22px; 
+	line-height: 25px;
+	margin-bottom: 18px;
+	font-style: normal;
+}
+h5 { 
+	font-size: 18px; 
+	line-height: 23px;
+	margin-bottom: 16px;
+	font-style: normal;
+}
+h6 { 
+	font-size: 16px; 
+	line-height: 21px;
+	margin-bottom: 14px;
+	font-style: normal;
+}
+
+/***************** Alignment*******************************/
+.align_left{text-align:left;}
+.align_center{text-align:center;}
+.align_right{text-align:right;}
+
+/**************************Text elements ****************/
+p {
+	font-weight: normal;
+	line-height: 18px;
+}
+
+ul, ol {
+	margin: 0;
+	list-style-position: inside;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+ol li {
+	list-style: none;
+}
+strong {
+	font-weight: bold;
+}
+cite, em, i {
+	font-style: italic;
+}
+blockquote {
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+}
+pre {
+	font-size: 13px;
+	line-height: 1.5;
+	overflow: auto;
+}
+code, kbd {
+	font-size: 13px;
+}
+abbr, acronym, dfn {
+	cursor: help;
+}
+address {
+	display: block;
+	margin: 0 0 40px;
+}
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+sup,sub {
+	font-size: 10px;
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+
+/*********************** Links ******************/
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover,a:focus {
+	text-decoration: none;
+	color: #000;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+text-decoration: none;
+}
+del {
+text-decoration: line-through;
+}
+
+/*************************** Clear Fix Styles ****************/
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+{
+	height:1%;
+}
+/* *********************** image alignments *******************/
+.img_left {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 12px;
+}
+.img_right {
+	float: right;
+	margin-left: 10px;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by John Doe (ACME Inc.) -->
+<MediaSignage_FAQs>
+	<Topic data="Reseller program">
+		<Question data="Can anyone become a reseller?">
+			<Answer data="Yes, any individual or company that pays the $99 a month (flat fee) will get full access to the reseller program including the white label / branding, support and all features."/>
+		</Question>
+		<Question data="How are prices set for resellers?">
+			<Answer data="Reseller pay the monthly flat and get UNLIMITED SignagePlayer Desktop Licenses."/>
+		</Question>
+		<Question data="This sounds too good to be true, what am I missing ?">
+			<Answer data="Nothing. MediaSignage Inc is changing the face of Digital Signage and we want to give everyone the opportunity to share our
+ success in this fast developing advertising medium of Digital Signage."/>
+		</Question>
+		<Question data="Why are you prices so low ?">
+			<Answer data="It is our core business model to offer quality Digital Signage that everyone can afford. "/>
+		</Question>
+		<Question data="Can I charge different rates from the ones posted at MediaSignage ?">
+			<Answer data="Yes. It&#39;s completely up to you to setup your own reseller pricing plan. You can be more competitive and offer lower prices. Or
+ you can charge higher prices and include added-value narrowcasting services such as several hours of included Digital Signage
+ presentation design, free phone technical support and other packaged benefits. "/>
+		</Question>
+		<Question data="How can I control the pricing that my subscribers pay through my white labeled site ?">
+			<Answer data="For now you can post them using standard HTML form or an image. In the near future we will have an advanced pricing component
+ which you will be able to embed in your web site as well. The component will be similar to the pricing component posted at
+ MediaSignage.com and you will have the ability to control the pricing through this component."/>
+		</Question>
+		<Question data="Are there any costs or hidden fees associated with the reseller program ?">
+			<Answer data="The fees are posted on the reseller page. We do not believe in hidden fees. Paypal.com may charge you fees for payments sent
+ from us to you. "/>
+		</Question>
+	</Topic>
+	<Topic data="White label / branding">
+		<Question data="Can I remove the MediaSignage Logo that is displayed when the Player is restarted ?">
+			<Answer data="Yes, any end user account which is associated with a reseller account will display the reseller business name upon a SignagePlayer Desktop version reboot. This makes MediaSignage completely transparent to the customer.
+&lt;BR&gt;"/>
+		</Question>
+		<Question data="How do I embed your Flash components in my web site and what are the requirements ?">
+			<Answer data="Under the Reseller studio click on tools to view sample HTML snippet which can be used to copy and paste onto your own site.
+ These components include both the referrer and white label HTML and JavaScript snippets."/>
+		</Question>
+		<Question data="Do I need to know how to program in order to become a branded / white labeled site ?">
+			<Answer data="No. We take care of that for you. You just need to copy and paste our HTML reseller code"/>
+		</Question>
+		<Question data="Can my web visitors find out about MediaSignage when I use white label ?">
+			<Answer data="We go to great lengths to make sure our application and web services do not refer to MediaSignage in any way. We use our alias name of www Signage dot me to hide MediaSignage when white label is used."/>
+		</Question>
+	</Topic>
+	<Topic data="Reseller support">
+		<Question data="Who supports my clients?">
+			<Answer data="As a reseller you will support your clients directly and we will support you. This means that if your client has a question that you do not know the answer to, simply pass it along to us so we can help out."/>
+		</Question>
+		<Question data="Who charges your customers?">
+			<Answer data="You will bill your customers directly as per your set prices. We will charge you our posted prices. The difference is your profit."/>
+		</Question>
+		<Question data="As a reseller, how do I track and manage my clients?">
+			<Answer data="Resellers will use the reseller studio to view in real time everything that is going on. In other words, as soon as web visitor opens a free account, as soon as a free account is converted into a subscribed user or even changes to the number of players, all can be monitored. Also, resellers will receive regular email notifications when a new free user / subscriber create an account using your reseller web site.        &lt;BR&gt;&lt;BR&gt;"/>
+		</Question>
+	</Topic>
+</MediaSignage_FAQs>

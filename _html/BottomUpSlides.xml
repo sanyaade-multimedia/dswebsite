@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slides>
+	<slide slideLink="http://mediasignage.com/html/signage_introduction.html" orderLink="http://mediasignage.com/html/signage_video.html?videoNumber=StartHere">
+		<inactive icon="http://mediasignage.com/js/design/bsIcon1bg.png" headingIcon="http://mediasignage.com/js/design/bsSelect1.png"/>
+		<active icon="http://mediasignage.com/js/design/bsIcon1.png" headingIcon="http://mediasignage.com/js/design/bsSelect1.png">
+	Learn how to use the application, its EASY!    </active>
+	</slide>
+	<slide slideLink="http://script.mediasignage.com/cgi-bin/webinar.cgi" orderLink="http://script.mediasignage.com/cgi-bin/webinar.cgi">
+		<inactive icon="http://mediasignage.com/js/design/bsIcon2bg.png" headingIcon="http://mediasignage.com/js/design/bsSelect2.png"/>
+		<active icon="http://mediasignage.com/js/design/bsIcon2.png" headingIcon="http://mediasignage.com/js/design/bsSelect2.png">
+	Join us for a free Web class this Thursday at 11AM Pacific time    </active>
+	</slide>
+	<slide isActive="true" slideLink="#WEB" orderLink="#WEB">
+		<inactive icon="http://mediasignage.com/js/design/bsIcon3bg.png" headingIcon="http://mediasignage.com/js/design/bsSelect3.png"/>
+		<active icon="http://mediasignage.com/js/design/bsIcon3.png" headingIcon="http://mediasignage.com/js/design/bsSelect3.png">
+	Open the SignageStudio Web or Desktop version (see below) and open your FREE account, get ready to be amazed!  </active>
+	</slide>
+	<slide isActive="true" slideLink="#PLAYER" orderLink="#PLAYER">
+		<inactive icon="http://mediasignage.com/js/design/bsIcon4bg.png" headingIcon="http://mediasignage.com/js/design/bsSelect4.png"/>
+		<active icon="http://mediasignage.com/js/design/bsIcon4.png" headingIcon="http://mediasignage.com/js/design/bsSelect4.png">
+	Install the SignagePlayer, push content and remote control it from anywhere, and its all FREE!
+    </active>
+	</slide>
+	<slide slideLink="http://MediaSignage.com" orderLink="http://MediaSignage.com">
+		<inactive icon="http://mediasignage.com/js/design/bsIcon5bg.png" headingIcon="http://mediasignage.com/js/design/bsSelect5.png"/>
+		<active icon="http://mediasignage.com/js/design/bsIcon5.png" headingIcon="http://mediasignage.com/js/design/bsSelect5.png">
+	Install the screen at the location and amaze your audience!
+    </active>
+	</slide>
+</slides>

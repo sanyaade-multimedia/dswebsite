@@ -1,0 +1,64 @@
+.tabs-menu {
+    background: url(../_images/home-sprite.png) no-repeat scroll -2319px -418px transparent;
+    float: left;
+    margin: 0;
+    min-height: 335px;
+    padding: 35px 0 0;
+    width: 147px;
+}
+.tabs-menu li {
+    height: 45px;
+    list-style: none outside none;
+}
+.tabs-menu a {
+    background: url(../_images/home-sprite.png) no-repeat scroll 0 -504px transparent;
+    cursor: pointer;
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    padding: 1px 0 0 17px;
+    width: 130px;
+    outline: none;
+    color: Black;
+    text-decoration: none;
+}
+.tabs-menu .first {
+    background-position: 0 -459px;
+}
+.tabs-menu .last {
+    background-position: 0 -549px;
+    height: 50px;
+}
+.tabs-menu .sel {
+    position: relative;
+}
+.tabs-menu .sel a {
+    background-position: 0 -403px;
+    color: #666666;
+    cursor: default;
+    height: 52px;
+    left: -6px;
+    line-height: 46px;
+    position: absolute;
+    text-decoration: none;
+    top: -1px;
+    width: 136px;
+}
+.tab-conten h3{
+	font-size: 18px; color: rgb(51,51,51); font-weight: normal; line-height:0.03em}
+.tab-conten h3 span{
+	color: #F00}
+.tab-conten p{
+	padding-top:0px;}
+.tabs-main {
+    float: left;
+    min-height: 385px;
+    padding: 30px 20px 35px 35px;
+    position: relative;
+	width:500px;
+}
+.tab-content {
+    min-height: 375px;
+    display: none;
+    position: relative;
+}

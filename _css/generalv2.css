@@ -1,0 +1,832 @@
+
+/* Four Main Sectioned Links */
+
+#fc_1 { background-image:url('../_images/mediaCLOUDSelected.png');}
+#fc_2 { background-image:url('../_images/zmediaSERVERSelected.png');}
+#fc_3 { background-image:url('../_images/zmediaBOXSelected.png');}
+#fc_4 { background-image:url('../_images/zmediaRESELLERselected.png');}
+
+#Table8 a{display:block; color:#fff; margin:6px 0 3px -4px; padding:5px 0 6px 4px; font-size:12px; border-radius:4px; -khtml-border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px}
+#Table8 a:hover{background:#555; text-decoration:none}
+
+
+.frontPagePlay {
+	display: block;
+	width: 220px;
+	height: 110px;
+	background: url('../_images/playIntrov2.png') bottom;
+	text-indent: -99999px;
+}
+.frontPagePlay:hover {
+	background-position: 0 0;
+}
+
+.twitterRollOver {
+	display: block;
+	float:left;
+	width: 28px;
+	margin-right:5px;
+	margin-top:8px;
+	height: 30px;
+	background: url('../_images/twitterRollOver.png') bottom;
+	text-indent: -99999px;
+}
+
+.twitterRollOver:hover {
+	background-position: 0 0;
+}
+
+.gplusRollOver {
+	display: block;float:left;
+	width: 28px;
+	height: 30px;
+	margin-right:5px;
+	margin-top:8px;
+	background: url('../_images/rollOvergplus7.png') bottom;
+	text-indent: -99999px;
+}
+
+.gplusRollOver:hover {
+	background-position: 0 0;
+}
+
+
+.apiRollOver {
+	display: block;
+	width: 53px;
+	margin-right:5px;
+	margin-top:8px;
+	height: 30px;float:left;
+	background: url('../_images/apiRO.png') bottom;
+	text-indent: -99999px;
+}
+
+.apiRollOver:hover {
+	background-position: 0 0;
+}
+
+
+.forumRollOver {
+	display: block;
+	width: 28px;float:left;
+	margin-right:5px;
+	margin-top:8px;
+	height: 30px;
+	background: url('../_images/forumRollOver.png') bottom;
+	text-indent: -99999px;
+}
+
+.forumRollOver:hover {
+	background-position: 0 0;
+}
+
+.contactRollOver {
+	display: block;
+	width: 28px;float:left;
+	margin-right:5px;
+	margin-top:8px;
+	height: 30px;
+	background: url('../_images/contactRollOver.png') bottom;
+	text-indent: -99999px;
+}
+
+.contactRollOver:hover {
+	background-position: 0 0;
+}
+
+
+.downloadNow {
+	display: block;
+	width: 222px;
+	height: 61px;
+	position:relative;
+	top:-22px;
+	left:-10px;
+	background: url('../_images/downloadNowButton.png') bottom;
+	text-indent: -99999px;
+}
+.downloadNow:hover {
+	background-position: 0 0;
+}
+
+.mediaCloudPlay {
+	display: block;
+	width: 220px;
+	height: 110px;
+	background: url('../_images/CloudIntro.png') bottom;
+	text-indent: -99999px;
+}
+.mediaCloudPlay:hover {
+	background-position: 0 0;
+}
+
+
+.mediaAdNetHover {
+	display: block;
+	width: 220px;
+	height: 110px;
+	background: url('../_images/adnetIntro.png') bottom;
+	text-indent: -99999px;
+}
+.mediaAdNetHover:hover {
+	background-position: 0 0;
+}
+
+.cloudVsServerVideoHover {
+	display: block;
+	width: 220px;
+	height: 110px;
+	background: url('../_images/cldvsserv3.png') bottom;
+	text-indent: -99999px;
+}
+.cloudVsServerVideoHover:hover {
+	background-position: 0 0;
+}
+
+
+.getStartedHover {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/get_started.png') bottom;
+        text-indent: -99999px;
+}
+.getStartedHover:hover {
+        background-position: 0 0;
+}
+
+.androidHover {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/android_butt.png') bottom;
+        text-indent: -99999px;
+		
+}
+.androidHover:hover {
+        background-position: 0 0;
+}
+
+.iPadHover {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/ipad_butt.png') bottom;
+        text-indent: -99999px;
+}
+.iPadHover:hover {
+        background-position: 0 0;
+}
+
+
+.learnMoreHover {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/learn_more_ro.png') bottom;
+        text-indent: -99999px;
+}
+.learnMoreHover:hover {
+        background-position: 0 0;
+}
+
+.mediaCloudButt {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/mediastorebutt.png') bottom;
+        text-indent: -99999px;
+}
+.mediaCloudButt:hover {
+        background-position: 0 0;
+}
+
+
+.androidMarketHover {
+        display: block;
+        width: 241px;
+        height: 85px;
+        background: url('../_images/android_market.png') bottom;
+        text-indent: -99999px;
+}
+.androidMarketHover:hover {
+        background-position: 0 0;
+}
+
+
+
+
+.windowsInstallerHover {
+        display: block;
+        width: 241px;
+        height: 85px;
+        background: url('../_images/windows_installer.png') bottom;
+        text-indent: -99999px;
+}
+.windowsInstallerHover:hover {
+        background-position: 0 0;
+}
+
+
+
+
+
+
+
+
+
+.iosAppHover {
+        display: block;
+        width: 241px;
+        height: 85px;
+        background: url('../_images/ios_market2.png') bottom;
+        text-indent: -99999px;
+}
+.iosAppHover:hover {
+        background-position: 0 0;
+}
+
+.iosBetaTest {
+        display: block;
+        width: 241px;
+        height: 85px;
+        background: url('../_images/roiOStest.png') bottom;
+        text-indent: -99999px;
+}
+.iosBetaTest:hover {
+        background-position: 0 0;
+}
+
+
+.smartTvHover {
+        display: block;
+        width: 241px;
+        height: 85px;
+        background: url('../_images/tv_market.png') bottom;
+        text-indent: -99999px;
+}
+.smartTvHover:hover {
+        background-position: 0 0;
+}
+
+
+.loginButtonRO {
+        display: block;
+        width: 102px;
+        height: 26px;
+        background: url('../_images/loginButtonRO.png') bottom;
+        text-indent: -99999px;
+}
+.loginButtonRO:hover {
+        background-position: 0 0;
+}
+
+.downloadNowRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/downloadRO.png') bottom;
+        text-indent: -99999px;
+}
+
+.downloadNowRollOver:hover {
+        background-position: 0 0;
+}
+
+.tryItRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/tryIt.png') bottom;
+        text-indent: -99999px;
+}
+
+.tryItRollOver:hover {
+        background-position: 0 0;
+}
+
+
+.videosHover {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/videos_front.png') bottom;
+        text-indent: -99999px;
+}
+.videosHover:hover {
+        background-position: 0 0;
+}
+
+.webinarHover {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/webinar_front.png') bottom;
+        text-indent: -99999px;
+}
+.webinarHover:hover {
+        background-position: 0 0;
+}
+
+.tryNowRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/trynow.png') bottom;
+        text-indent: -99999px;
+}
+.tryNowRollOver:hover {
+        background-position: 0 0;
+}
+
+
+.signupRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/signupro.png') bottom;
+        text-indent: -99999px;
+}
+.signupRollOver:hover {
+        background-position: 0 0;
+}
+
+.docsRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/docs_ro.png') bottom;
+        text-indent: -99999px;
+}
+.docsRollOver:hover {
+        background-position: 0 0;
+}
+
+
+.upgRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/roll_upg.png') bottom;
+        text-indent: -99999px;
+}
+
+.upgRollOver:hover {
+        background-position: 0 0;
+}
+
+.bigGetStartedRollOver {
+        display: block;
+        width: 522px;
+        height: 201px;
+        background: url('../_images/roll_bigbutton.png') bottom;
+        text-indent: -99999px;
+}
+
+.bigGetStartedRollOver:hover {
+        background-position: 0 0;
+}
+
+
+.watchVideoRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/watchnowro.png') bottom;
+        text-indent: -99999px;
+}
+.watchVideoRollOver:hover {
+        background-position: 0 0;
+}
+
+.followUsRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/followusro.png') bottom;
+        text-indent: -99999px;
+}
+.followUsRollOver:hover {
+        background-position: 0 0;
+}
+
+.letsTalkRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/letstalk_ro.png') bottom;
+        text-indent: -99999px;
+}
+.letsTalkRollOver:hover {
+        background-position: 0 0;
+}
+
+.mediaBoxRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/mediabox_ro.png') bottom;
+        text-indent: -99999px;
+}
+.mediaBoxRollOver:hover {
+        background-position: 0 0;
+}
+
+.mediaQuote {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/get_quote.png') bottom;
+        text-indent: -99999px;
+}
+.mediaQuote:hover {
+        background-position: 0 0;
+}
+
+.videoTutorialsRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/videotuorial.png') bottom;
+        text-indent: -99999px;
+}
+.videoTutorialsRollOver:hover {
+        background-position: 0 0;
+}
+
+.yourLogoRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/your_logo.png') bottom;
+        text-indent: -99999px;
+}
+.yourLogoRollOver:hover {
+        background-position: 0 0;
+}
+
+.enterpriseRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/enterprise_ro.png') bottom;
+        text-indent: -99999px;
+}
+
+.enterpriseRollOver:hover {
+        background-position: 0 0;
+}
+
+
+.pricingRollOver {
+        display: block;
+        width: 158px;
+        height: 40px;
+        background: url('../_images/pricing_ro.png') bottom;
+        text-indent: -99999px;
+}
+
+.pricingRollOver:hover {
+        background-position: 0 0;
+}
+
+
+
+
+
+a#getStartedLink
+{
+    display: block;
+    height: 73px;
+    width: 213px;
+    cursor: pointer;
+    background-image: url("../_images/get-started-shade.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+a#getStartedLink div{ height: 43px; margin-top: 21px; overflow:hidden;}
+
+a#getStartedLink img{ border: none;}
+
+
+
+.fadeContainer{
+	width:240px;
+	height:189px;
+	overflow:none;
+	float:left;	
+	cursor: pointer;
+}
+
+/* Image Gallery Fader */ 
+  
+ul#portfolio li img{
+	border: 0px solid #ccc;
+	padding: 4px;
+	list-style-type: none; 
+	list-style-image: url('../_images/r_aces.png');
+}
+
+.floatingBox ul li{
+	padding:0px 0 0px 0px;
+	margin:0px;
+	list-style-type:none;
+	height:30px;
+}
+.floatingBox ul{
+	padding:0px;
+	margin:0px 0 0 0;
+	list-style-type:none;
+}
+.floatingBox
+{
+	background-color:transparent;
+	padding-top: 40px;
+	padding-left: 60px;
+        right: 0px;
+        top: 110px;
+        height: 253px;
+        width: 30px;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        z-index: 5000;
+	overflow: hidden;
+	/*background-image:url(../_images/navbg3.png);*/
+	background:url(../_images/navbg4.png) repeat-x;
+}
+.floatingBox h2{
+	font-size:12px;
+	line-height:25px;
+	padding-left:5px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	color:#ffffff;
+}
+.floatingBox p{
+	margin-top:0px;
+	padding-top:0px;
+	line-height:1.1em;
+}
+.tab_line{
+	position: relative;
+	width: 200px;
+	height: 23px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	border-color: white;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+}
+.tab_line img{
+	margin-left: 15px;
+	margin-top: 3px;
+}
+.hidd{
+	display: none;
+}
+
+.m_floatingBox{
+	width:155px;
+	height:auto;
+	position:fixed;
+	top:110px;
+	right:-111px;
+	z-index:5000;
+	margin:0px;
+	padding:0px;
+}
+.m_floatingBox h1{
+	background-color:#085a78;
+	padding:5px;
+	color:#ffffff;
+	margin-bottom:0px;
+	font: normal 22px "Roboto", arial, sans-serif;
+	font-weight: 300;
+}
+.m_floatingBox h1 img{
+	margin-right:10px;
+}
+.m_floatingBox ul{
+	background-color:#074e68;
+	border-bottom:14px solid #333333;
+}
+.m_floatingBox ul li{
+	border-bottom:1px solid #387185;
+	padding:6px 5px 7px 10px;
+	height:20px;
+}
+.m_floatingBox ul li.last{
+	border-bottom:none;
+}
+.m_floatingBox ul li a{
+	color:#ffffff;
+	line-height:30px;
+	font: normal 16px "Roboto", arial, sans-serif;
+	font-weight: 300;
+}
+.m_floatingBox ul li a img{
+	margin-right:17px;
+	line-height:22px;
+	vertical-align:middle;
+}
+
+
+#sliding_bar{
+	position: relative;
+	height: 60px;
+	width: 720px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+#sliding_bar_main{
+	width: 4000px;
+	overflow: hidden;
+}
+.sliding_bar_line{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 720px;
+	position: relative;
+	float: left;
+}
+.sliding_bar_line img{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#alert_box{
+        position: absolute;
+        height: 200px;
+        width: 400px;
+        left: 0%;
+        margin-left: -20px;
+        top: 40%;
+        margin-top: -150px;
+        background-color: #FFFFCE;
+        display: none;
+        color: white;
+        /*font-family: Arial;*/
+		font-family: 'Roboto', sans-serif;
+		font-weight:300;
+        font-size: 20px; 
+        line-height: 25px;  
+        color: #2C2C2C;
+        border-color: BLACK;
+        border-width: 5px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        border-style:solid;
+        border-width:5px;
+}
+
+#close_box{
+	position: relative;
+	height: 40px;
+	width: 40px;
+	float: right;
+	cursor: pointer;
+}
+
+
+/* The main slideshow */
+
+#roundedPagerContainer
+{
+    z-index: 100; position: absolute; top: 10px; width: 100%
+}
+
+#roundedPager
+{
+    height: 21px; 
+    margin: 0 auto;
+}
+
+a.scroller_btn {
+    background: url("../_images/hp_scroller_btns.png") no-repeat scroll 0 bottom transparent;
+    display: block;
+    height: 20px;
+    margin-left: 3px;
+    opacity: 0.65;
+    width: 23px;
+    float: left;
+    cursor: pointer;
+}
+
+a.scroller_btn:hover, .active_btn {
+    background-position: 0 0 !important;
+    opacity: 0.85 !important;
+}
+
+
+div.billboard_outer_frontpage { 
+    overflow:hidden;
+	background-image:url(../_images/sky_bg.jpg); 
+	height:388px; 
+	background-color:#82c6da; 
+	background-repeat: repeat-x;
+	background-position: left bottom;
+
+}
+
+div.billboard_outer { 
+	background-image:url(../_images/sky_bg.jpg); 
+	height:60px; 
+	background-color:#82c6da; 
+}
+
+div.billboard_inner { 
+	background-image:url(../_images/clouds.jpg); 
+	background-position:50% 100%; 
+	background-repeat:no-repeat; 
+}
+
+div#clouds_2 { 
+	background-image:url(../_images/clouds_2.png); 
+	background-position:50% 100%; 
+	background-repeat:no-repeat; 
+	position:relative;
+	height: 388px;
+}
+
+div.billboard_content_container {
+	width:1000px; height:385px; 
+	position:absolute; z-index:100;
+	bottom:0%; left:50%; margin-left:-500px;
+}
+	
+div.billboard_message_container { 
+	width:1000px; 
+}
+
+div.billboard_screenshot { 
+	position:absolute; 
+	bottom:0px; 
+	right:0px; 
+}
+
+div.free_button { 
+	position:absolute; 
+	top:-20px; 
+	right:0px;
+	z-index:1000;
+}
+			
+div.billboard_message { 
+	position:absolute; 
+	top:90px; 
+	left:0px; 
+	width:320px;
+}
+
+div.billboard_message h1 { 
+	color:#fff; 
+	font-size:30px; 
+	font-weight:normal;
+}
+
+div.billboard_message h2 { 
+	color:#211914; 
+	font-size:22px; 
+	font-weight:normal;
+}
+
+div.billboard_message h3 { 
+	color:#37322f; 
+	font-size:18px; 
+	font-weight:normal;
+}
+
+div.content_inner { 
+	width:1000px; position:relative;
+	margin:0 auto;
+}
+
+ul.big_links { 
+	margin:0px; 
+	padding:0px;
+	cursor:pointer;
+}
+ul.big_links li { display:block; width:300px; float:left; padding:10px 8px 20px 10px; color:#534940;}
+ul.big_links li a { color:#534940; text-decoration:none; }
+ul.big_links li a:hover { color:#fe6b05; text-shadow:2px 2px 2px #ccc; }
+ul.big_links li h1 { font-size:17px; font-weight:normal; }
+ul.big_links li h2 { font-size:14px; font-weight:normal; }
+
+.slide_control_button {
+   background-image: url(../_images/selected_button_bg.png);
+   background-repeat: repeat-x;
+}
+.selected_button { background-image:url(../_images/content_bg_frontpage2.jpg);
+background-position:top left; background-repeat:repeat-x; cursor:pointer; }
+/* .selected_button h1 { color:#ff9900; } */
+
+
+.rollover_button { background-image:url(../_images/content_bg_frontpage2.jpg); background-position:top left; background-repeat:repeat-x; cursor:pointer; }
+/* .rollover_button h1 { color:#ff9900; } */
+
+

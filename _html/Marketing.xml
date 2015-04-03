@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by John Doe (ACME Inc.) -->
+<features>
+	<columnTitles>
+		<column>source files</column>
+		<column>
+	size&lt;br/&gt;
+      &lt;span style=&quot;font-size: 10px; color: rgb(255, 0, 0);&quot;&gt;in megabytes&lt;/span&gt;
+    </column>
+	</columnTitles>
+	<featureGroup name="Downloads:">
+
+		<feature name="mediaCLOUD Brochure">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">53mb</cell>
+			<extra>
+                                &lt;/b&gt; &lt;a href=&quot;https://dl.dropbox.com/u/93017334/mediaCLOUD.zip&quot; title=&quot;&quot;&gt;&lt;span&gt;&lt;span&gt;Download Adobe PSD sources and PNG images&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;			
+			</extra>
+		</feature>
+
+		<feature name="mediaSERVER Brochure">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">10mb</cell>
+			<extra>
+                                &lt;/b&gt; &lt;a href=&quot;https://dl.dropbox.com/u/93017334/mediaSERVER.zip&quot; title=&quot;&quot;&gt;&lt;span&gt;&lt;span&gt;Download Adobe PSD sources and PNG images&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;			
+			</extra>
+		</feature>
+
+
+
+		<feature name="Business Cards">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">2mb</cell>
+			<extra>
+                                &lt;/b&gt; &lt;a href=&quot;https://dl.dropbox.com/u/93017334/BusinessCard.zip&quot; title=&quot;&quot;&gt;&lt;span&gt;&lt;span&gt;Download Adobe PSD sources and PNG images&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;			
+			</extra>
+		</feature>
+
+
+
+		<feature name="Free Digital Signage flyer">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">3mb</cell>
+			<extra>
+                                &lt;/b&gt; &lt;a href=&quot;https://dl.dropbox.com/u/93017334/FreeDigitalSignage.zip&quot; title=&quot;&quot;&gt;&lt;span&gt;&lt;span&gt;Download Adobe PSD sources and PNG images&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;			
+			</extra>
+		</feature>
+
+
+
+		<feature name="MediaSignage decal">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">1mb</cell>
+			<extra>
+                                &lt;/b&gt; &lt;a href=&quot;https://dl.dropbox.com/u/93017334/Decal.zip&quot; title=&quot;&quot;&gt;&lt;span&gt;&lt;span&gt;Download Adobe PSD sources and PNG images&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;			
+			</extra>
+		</feature>
+
+
+
+		<feature name="mediaSERVER box">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">3mb</cell>
+			<extra>
+                                &lt;/b&gt; &lt;a href=&quot;https://dl.dropbox.com/u/93017334/mediaSERVER_box.zip&quot; title=&quot;&quot;&gt;&lt;span&gt;&lt;span&gt;Download Adobe PSD sources and PNG images&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;			
+			</extra>
+		</feature>
+
+		<feature name="mediaBOX quick guide">
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">3mb</cell>
+			<extra>
+                                &lt;/b&gt; &lt;a href=&quot;https://dl.dropbox.com/u/93017334/mediaBOX_QuickGuide.zip&quot; title=&quot;&quot;&gt;&lt;span&gt;&lt;span&gt;Download Adobe PSD sources and PNG images&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;			
+			</extra>
+		</feature>
+
+
+	</featureGroup>
+</features>

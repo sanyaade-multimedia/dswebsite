@@ -1,0 +1,1 @@
+rsync --progress  --chmod=ug=rwx --chmod=o=rx -av --stats "/cygdrive/c/msweb/mswebsite_local/_html/" root@digitalsignage.com:/var/www/sites/dynasite/htdocs/_msportal/_js/_node/siteSource/sites/mediasignage.com/htdocs/_html

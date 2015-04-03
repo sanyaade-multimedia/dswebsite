@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by John Doe (ACME Inc.) -->
+<MediaSignage_FAQs>
+	<Topic data="General questions">
+		<Question data="What is digital signage?">
+			<Answer data="We are all familiar with advertising on billboards and posters...it's static and non-interactive. Now imagine having an LCD monitor in place of that paper poster...with an unlimited number of video, animation and design elements for you to make whatever you want. Imagine the possibilities."/>
+		</Question>
+		<Question data="What is the difference between mediaSERVER and mediaCLOUD?">
+			<Answer data="mediaCLOUD is a cloud based Digital Signage (also known as SaaS or software as a service).
+All of your media files (videos, animations etc) are stored on our servers and stream down to get locally cached within your local players / computers. You get all the support and software updates at no additional charge. 
+&lt;BR&gt;&lt;BR&gt;
+mediaSERVER is a privately hosted server solution. The server software and hardware are purchased and owned by you. All the licenses for the players / computers running are also owned and managed by you, within your network or with your internet service provider. With the mediaSERVER you do not pay a subscription fee; however there is an optional updates and support annual fee. 
+
+"/>
+		</Question>
+		<Question data="Can my business or company benefit from digital signage?">
+			<Answer data="Are you a business? Do you have message you want to get across to potential customers? Do you want to reach a captive audience using an effective and efficient method that will allow your company to up sell and cross sell either your product or service? Then yes, digital signage is right for you. MediaSignage makes the transition into the new medium effortless and inexpensive. Best of all with MediaSignage you can run your signage on any flash powered device including web, mobile and portable devices."/>
+		</Question>
+		<Question data="Where can digital signage be used?">
+			<Answer data="Wherever you can hang an LCD monitor and reach potential customers...THAT'S where you can use digital signage. The possibilities are endless: Retail Education Leisure Public Transport Museums Entertainment Gas Stations Public Spaces Restaurants and menu systems Hospitality and more..."/>
+		</Question>
+		<Question data="Is my information and content secure?">
+			<Answer data="MediaSignage is powered by 128 bit SSL encryption. Multiple levels of authentication are used for user level access. Powered by RSA Authentication, all media is accessible using public / private keys allowing for the highest level of access restrictions for your private data. Our Adobe AIR application is SSL signed and approved. 
+"/>
+		</Question>
+		<Question data="What are the copyright restrictions and regulations?">
+			<Answer data="It is your responsibility to ensure you follow your country's copyright laws. MediaSignage Inc. will not be responsible for any copyright infringements associated with your account. Be sure you receive full written approval for media and content used in your signage presentation. MediaSignage Inc. will remove content which was brought to our attention as a violator of any copyright laws 
+"/>
+		</Question>
+		<Question data="I am getting an error when trying to upgrade to the latest version, how do I fix this? ">
+			<Answer data="     &lt;BR&gt;&lt;BR&gt;
+			After you uninstall these be sure to delete the following:
+			        &lt;BR&gt;&lt;BR&gt;
+			C:\Documents and Settings\YOUR_NAME\My Documents\MediaSignage
+			&lt;BR&gt;
+			C:\Program Files\SignagePlayer
+			&lt;BR&gt;
+			C:\Program Files\SignageStudioAir
+			        &lt;BR&gt;&lt;BR&gt;
+			Once you complete the above tasks you can continue by re-installing the AIRPlayer and / or AIRStudio.
+			&lt;BR&gt;
+			Go to our web site and re-install the AIRPlayer and AIRStudio:
+			       &lt;BR&gt;
+			http://mediasignage.com/html/digital_signage_software.html
+			
+			       &lt;BR&gt;&lt;BR&gt;"/>
+		</Question>
+		<Question data="How do I update the software and is it free?">
+			<Answer data="&lt;BR&gt;
+				The current release is always available from the download section of our web site. 
+				&lt;BR/&gt;
+				&lt;BR/&gt;
+				Private builds are posted on the Forum and Twitter pages respectively. 
+				&lt;BR/&gt;
+				When it comes to general updates, you should follow us on &lt;/b&gt; &lt;a href=&quot;http://twitter.com/mediasignage&quot; title=&quot;Twitter&quot;&gt;&lt;span&gt;&lt;span&gt;Twitter&lt;/span&gt;&lt;/span&gt;&lt;/a&gt; for weekly updates
+				&lt;BR/&gt;
+				&lt;BR/&gt;
+				&lt;BR/&gt;
+				And yes, all updates are free with our SaaS solution.
+				&lt;BR/&gt;
+				&lt;BR&gt;
+				&lt;BR&gt;"/>
+		</Question>
+		<Question data="Can I brand the mediaSERVER? ">
+			<Answer data="Sure, when you purchase the mediaSERVER you can white label / brand your solution. This means that when the Player install from your web site it will have your Logo, also when the SignagePlayer restarts it displays your brand. All aspects of the SignageStudio are also branded including images, Links and even URLs."/>
+		</Question>
+		<Question data="How do I purchase a mediaSERVER?">
+			<Answer data="You can purchase it online or give us a call. We do require that you sign the mediaSERVER purchase agreement and fax it back to us. "/>
+		</Question>
+		<Question data="Do you ship worldwide?">
+			<Answer data="Yes, we ship both the mediaSERVER worldwide, normally within 2 business days. "/>
+		</Question>
+	</Topic>
+	<Topic data="Pricing">
+		<Question data="Can I cancel at any time?">
+			<Answer data="Yes with MediaSignage you have no obligations, no contracts and no hidden commitments."/>
+		</Question>
+		<Question data="Is MediaSignage Free?">
+			<Answer data="Yes, the mediaCLOUD is FREE. Optionally, you can join the Enterprise edition; for that you pay $99.00 a month and receive access to the most advanced options."/>
+		</Question>
+		<Question data="How many screens can I add for FREE?">
+			<Answer data="Both the FREE and Enterprise edition allow you to use UNLIMITED number of screens. We do not charge you per license as most (rather all) other Digital Signage companies do. "/>
+		</Question>
+		<Question data="Are the prices going to be increased?">
+			<Answer data="We realize our price-per-license seems ridiculously low ($0.00)  -- but THAT is the fundamental business approach of our Software as a Service (SaaS) Digital Signage solution. 
+				&lt;BR&gt;
+				&lt;BR&gt;
+				With MediaSignage, Digital Signage for everyone, really means for EVERYONE."/>
+		</Question>
+		<Question data="How can I be sure MediaSignage does not increase the prices?">
+			<Answer data="MediaSignage includes in our &quot;end user&quot; license agreement an &quot;agreed minimal increase limit&quot;. This is to ensure we gain your trust in our minimalist business approach of digital signage for everyone."/>
+		</Question>
+		<Question data="Why are the MediaSignage prices so low?">
+			<Answer data="Our solution is all about providing affordable digital signage software as services.
+&lt;BR&gt;&lt;BR&gt;
+MediaSignage was created to provide a superior digital signage product to everyone. It is a core, fundamental ingredient of our business model. We profit by volume; selling a tool that anyone and everyone can use. "/>
+		</Question>
+		<Question data="How much storage can I use on your servers to store my content?">
+			<Answer data="We currently do not limit the storage on the FREE mediaCLOUD. The mediaCLOUD Enterprise edition subscribers are guaranteed at least 10G of storage."/>
+		</Question>
+		<Question data="What is the mediaSERVER SLA?">
+			<Answer data="SLA stands for Service Level Agreement. We also often refer to it as your annual Support and Updates. The SLA is renewed annually and provides you with all the support you need in addition to software updates. The software updates include the latest server and player upgrades including new features and enhancements. Each SignagePlayer license you purchase includes one year of support and updates at no additional charge. "/>
+		</Question>
+		<Question data="How is the server pricing structured?">
+			<Answer data="The mediaSERVER is $895.00 for the software version which you can install on your own PC / Server.  &lt;BR&gt;
+ 
+The price for each SignagePlayer Desktop version is $195.00 which is a one time per license fee (a license is a single PC driving 1 or more screens).   And a per license $39.00 per year for software updates and support (the $195.00 already includes 1 year of updates and support thats included in it). &lt;BR&gt;
+"/>
+		</Question>
+		<Question data="What if I want to add the annual updates and support at a later time?">
+			<Answer data="Each SignagePlayer license comes with (1) year of updates and support that is already included in the price. If you do not renew the updates and support, you will have the option to renew at a later time. However, you must first bring the subscription up-to-date by paying the pro-rated yearly support and updates (SLA) Subscription fee. So for example, if you want to add a support and updates after 3 months, you must pay for 3 months to close the gap and bring it up-to-date."/>
+		</Question>
+	</Topic>
+	<Topic data="System Requirements">
+		<Question data="What are the software requirements for the SignagePlayer?">
+			<Answer data="Our software requirements are amazingly simple, allowing anyone to use almost any computer.&lt;BR&gt; SignageStudio - Desktop or web
+				 version -
+				Any computer, witn any OS, running a commonly supported web browser with Flash player 10+ or above.
+				SignagePlayer - web version -  Any commonly supported web browser running Flash player 10+ or above ( Any OS or device )
+				&lt;BR&gt;&lt;BR&gt;
+				SignagePlayer, - desktop version - Any OS which runs Adobe integrated runtime including Linux/Ubuntu, Windows XP, Windows 7 or
+				 above as well as Mac OS X
+				&lt;BR&gt;"/>
+		</Question>
+		<Question data="What are the hardware requirements for the SignagePlayer?">
+			<Answer data="The following is recommended for good digital signage playback which include swf animations, images, HD Video, Weather, RSS feed etc:&lt;BR&gt;
+			Intel Pentium Dual Core 2.5GHz or faster Intel based processor with 1GB RAM; with 80GB hard drive. 
+			This is true for all operating systems including Windows, Ubuntu and Mac.&lt;BR&gt;&lt;BR&gt;
+			You maybe be able to get away with lower end hardware, but you may also not receive the desired smoothness and miss out on the full potential of our software.
+			&lt;BR&gt;&lt;BR&gt;
+			High quality signage presentation do require higher-end hardware. If your presentation includes multiple HD Video (H.264), 
+			vector based images and high-quality full screen swf animation including support for multiple screens, 
+			you should invest in better performance hardware.
+			&lt;BR&gt;&lt;BR&gt;Large monitors running high resolution screens (i.e: 1920x1080) will also require better hardware; for improved rendering and 
+			high frame-per-second (FPS) refresh rate. 
+			&lt;BR&gt;
+			For best performance we recommend:&lt;BR&gt;
+			Intel Pentium 2.8GHz Quad Core2 with 2GB of RAM&lt;BR&gt;
+			&lt;BR&gt;&lt;BR&gt;
+			&lt;BR&gt;
+			Note: The SignagePlayer for the Mac OS is supported only on the Intel base player, not PowerPC!
+			&lt;BR&gt;&lt;BR&gt;"/>
+		</Question>
+		<Question data="Does the SignagePlayer run on devices with Windows XP Embedded?">
+			<Answer data="The MediaSignage SignagePlayer can run on low-end devices with as little as an 800MHz processor with Win XPe SP3
+				(embedded XP). Of course, you will be limited to simpler videos (no HD) and simpler swf animation
+				due to the lack of processing power."/>
+		</Question>
+		<Question data="Which operating system do you support?">
+			<Answer data="We support any OS which runs Flash Player 10+ or above.&lt;BR&gt;&lt;BR&gt;This includes Windows 2000 with Service Pack 4; Windows XP with
+				 Service Pack 2; Windows Vista Home Premium, Business, Ultimate, or Enterprise; and Windows 7 - all versions. For Linux use
+				 Ubunto 9.10 or later release. Mac OS X 10.5.1 or later. Other devices such as portable and handheld are also supported as long
+				 they have Flash 10+ running natively."/>
+		</Question>
+		<Question data="What kind of display monitors can I use?">
+			<Answer data="You can use any display such as a Computer monitor, LCD or Plasma which supports PC input."/>
+		</Question>
+		<Question data="Do I need a fast, persistent internet connection?">
+			<Answer data="Our SignageStudio and the web version of SignagePlayer do require a dedicated internet connection. However, our desktop version
+				 of SignagePlayer, powered by the built-in caching engine, does not require a dedicated connection. 
+				In fact, the SignagePlayer-desktop version searches for internet activity only during power up and when it searches to see if
+				 new content is available for it to download. If there is no internet connection at all at these stations, you can update your
+				 digital signage manually using a portable hard drive or flash memory device"/>
+		</Question>
+		<Question data="Do I need a static IP?">
+			<Answer data="No, dynamic IPs are fully supported. In fact our system is smart enough to move into polling mode and bypass firewall restrictions if need be."/>
+		</Question>
+		<Question data="Which file formats do you support?">
+			<Answer data="
+				MediaSignage officially supports all of the Flash Media Formats which include:
+				&lt;BR&gt;
+				&lt;BR&gt;
+				Video Formats: Flash video FLV (H.263), MPEG-4 (H.264) ,MOV, M4A, MP4V, 3GP, 3G2, AAC (HE, LC), SWF
+				&lt;BR&gt;
+				&lt;BR&gt;
+				Animation: SWF
+				&lt;BR&gt;
+				&lt;BR&gt;
+				Images: JPG, PNG
+				&lt;BR&gt;
+				&lt;BR&gt;
+				Sound: MP3
+				&lt;BR&gt;
+				&lt;BR&gt;
+				However, you should note, due to the hundreds of different encoders available today, it is possible that some of your files may
+				 not run properly in your signage presentation.
+				&lt;BR&gt;
+				&lt;BR&gt;
+				That is why we highly recommend you use a Freeware utility like Super to convert your media files to standard format including
+				 FLV, PNG or SWF. This will eliminate any encoder /decoder issues you may experience. 
+				You can read our conversion format document here:
+				&lt;BR&gt;
+				http://mediasignage.com/html/media_file_conversion.html
+				&lt;BR&gt;
+				&lt;BR&gt;
+				And download the Super Free media format conversion utility here:
+				&lt;BR&gt;
+				&lt;BR&gt;
+				http://www.mediasignage.com/files/SUPERsetup.exe
+				&lt;BR&gt;"/>
+		</Question>
+		<Question data="What are the mediaSERVER software installation requirements?">
+			<Answer data="The mediaSERVER software installation kit requires a clean copy of Microsoft Windows 2008 or Windows 7 as well as none configured Microsoft Internet Information Server version 7 pre installed (IIS7).  The mediaSERVER requires 3 IPs. If you plan on providing services over the web you will want to make sure that the 3 IPs are static and internet accessible. Each IP will also need to be configured with a prefix domain (as in a.MY_SERVER.com b.MY_SERVER.com and c.MY_SERVER.com). If you plan on parking the mediaSERVER within an ISP, be sure to provide adequate bandwidth to allow for smooth download of media to your individual SignagePlayers."/>
+		</Question>
+		<Question data="What are the mediaSERVER software kit hardware requirements?">
+			<Answer data="The mediaSERVER is capable of handling thousands of concurrent SignagePlayer connections as long as you provide adequate hardware configuration. We recommend an Intel i7 Quad Core processor with 4GB of memory and 1TB hard drive.  But you may choose a lower end configuration. 
+The Microsoft Windows 2008 Server or Windows 7 minimum requirements are:
+&lt;BR&gt;
+Processor Minimum: 1GHz (x86 processor) or 1.4GHz (x64 processor) &lt;BR&gt;
+Recommended:  2GHz or faster &lt;BR&gt;
+Memory Minimum: 512MB RAM &lt;BR&gt;
+Recommended: 2GB RAM or greater &lt;BR&gt;
+Maximum (32-bit systems): 4GB (Standard) or 64GB (Enterprise and Datacenter) &lt;BR&gt;
+Maximum (64-bit systems): 32GB (Standard) or 2TB (Enterprise, Datacenter and Itanium-Based Systems) &lt;BR&gt;
+Available Disk Space Minimum: 10GB &lt;BR&gt;
+Recommended: 40GB or greater &lt;BR&gt;
+Drive DVD-ROM drive &lt;BR&gt;
+Display and Peripherals	Super VGA (800 x 600) or higher-resolution monitor &lt;BR&gt;
+Keyboard Microsoft Mouse or compatible pointing device &lt;BR&gt;
+"/>
+		</Question>
+		<Question data="Is it difficult to install a mediaSERVER?">
+			<Answer data="No, the installation process is straight forward and it will walk you through a setup wizard. Be sure to provide a clean operating system (no other software should be installed on the OS) to prevent driver and library conflicts."/>
+		</Question>
+	</Topic>
+	<Topic data="SignageStudio">
+		<Question data="What is SignageStudio?">
+			<Answer data="SignageStudio, which comes in a web version and a desktop version, is the application you will use to configure and administer your digital signage presentation."/>
+		</Question>
+		<Question data="What are Signage templates?">
+			<Answer data="Signage templates allow you to quickly get up and running by selecting a pre-configured digital signage presentation. You can choose from a range of templates for one that best matches your needs. Once you select a signage template you may begin to modify it and its resources to accommodate your requirements."/>
+		</Question>
+		<Question data="Who can access and configure my signage presentation?">
+			<Answer data="Anyone who has the user name and password can access and configure the digital signage presentation."/>
+		</Question>
+		<Question data="Where is my configuration saved?">
+			<Answer data="Once you make or change a signage configuration using SignageStudio, these changes are saved to our servers and propagate to the appropriate signage players. Media files (such as videos and images) also are saved to our servers and download to each signage player."/>
+		</Question>
+		<Question data="How do I clear the SignageStudio cookie info so I can re-register">
+			<Answer data="To delete the registered user local cookie so you can re-login delete the SignageStudio.XXX directory:&lt;BR/&gt;
+&lt;BR/&gt;
+&lt;BR/&gt;
+In XP
+&lt;BR/&gt;
+Delete C:\Documents and Settings\USER_NAME\Application Data\SignageStudio.XXX
+&lt;BR/&gt;
+&lt;BR/&gt;
+In Windows 7 / Vista
+&lt;BR/&gt;
+Delete C:\Users\USER_NAME\AppData\Roaming\Data\SignageStudio.XXX
+&lt;BR/&gt;
+&lt;BR/&gt;
+In Mac OS X
+&lt;BR/&gt;
+rm -r -f /Users/YOUR_USER/Library/Preferences/Data/SignageStudio.XXX
+&lt;BR/&gt;
+AND
+&lt;BR/&gt;
+rm -r -f /private/var/root/Library/Preferences/Data/SignageStudio.XXX
+&lt;BR/&gt;
+&lt;BR/&gt;
+In Linux / Ubuntu
+&lt;BR/&gt;
+rm -r -f /root/.appdata/Data/SignageStudio*
+&lt;BR/&gt;
+&lt;BR/&gt;"/>
+		</Question>
+	</Topic>
+	<Topic data="SignagePlayer + SignageController">
+		<Question data="What should I use, the web version or the desktop version of SignageStudio?">
+			<Answer data="SignagePlayer-web version is NOT designed to run on a dedicated machine. For example, an online visitor to your web site may
+ click a link and view your signage presentation.) The web version runs inside any browser and doesnt require special licensing
+ or installation. With our web version of SignagePlayer, you may run an unlimited number of monitors (no license restrictions).
+ The web version does require a dedicated internet connection, and it does not support our caching engine and lacks some
+ enhanced functionality.
+SignagePlayer-desktop version is designed to run on a dedicated computer. It requires one license per computer and minimal
+ installation. The desktop versin does support enhanced functionality such as real time syncing for content and data, caching
+ engine, detail operation statistics and more. With the desktop ersion of of SignagePlayer you do not need a dedicated internet
+ connection so if your network fails a few times a day, your player will not be effected. Also, the desktop version allows for
+ tuner card support."/>
+		</Question>
+		<Question data="What are the advantages/disadvantages of the desktop and web versions?">
+			<Answer data="SignagePlayer-web version is a &quot;light&quot; signage player that is suitable for online viewing. The resources (videos, images and database) begin downloading to the player as soon as the player loads. The web version runs inside a web browser. A web visitor can view the presentation as soon as the content begins to download. The web version of SignagePlayer lacks some advanced features such as caching engine support, live administration control and recoverability. If you wish to make you signage presentation available for public viewing through your web site we recommend using the web version of SignagePlayer.
+SignagePlayer-desktop version is an advanced signage player that requires minimal installation. Each desktop version uses one license that is FREE. The desktop vesion is powered by a sophisticated content caching engine that always keeps your content up to date. The desktop version of SignagePlayer also supports watch dog (fail and recover functionality) as well as many enhanced features including live administration control. If you are going to operate a signage monitor in a physical location (such as a retail store or office building) we recommend using the SignagePlayer-desktop version.&lt;BR&gt;"/>
+		</Question>
+		<Question data="How many Players can I operate?">
+			<Answer data="When you use the mediaCLOUD you can use unlimited licenses (in other words, unlimited screens or players) at not cost, for both SignagePlayer Web and Desktop versions. The mediaSERVER has its own pricing structure and it is sold on a per license basis."/>
+		</Question>
+		<Question data="How can I link a signage presentation to my web site so web visitors can see it?">
+			<Answer data="Once you submit any changes to your signage configuration using SignageStudio, these changes are saved to servers and propagate to the appropriate signage players. 
+Media files ( such as videos and images ) also are saved to our servers and download to each signage player."/>
+		</Question>
+		<Question data="I can see my Player registered but I can not remote control it, why?">
+			<Answer data="If you are having issues connecting to our server you must have issues with a local firewall.
+We support both LIVE Sockets as well as HTTP Polling. 
+&lt;BR&gt;
+Under the SignageStudio  &gt; Stations you may get 3 color indicators:
+&lt;BR&gt;
+Yellow: connected via Polling&lt;BR&gt;
+Green: connected via live socket&lt;BR&gt;
+Red: not connected at all&lt;BR&gt;
+To learn more about this and how it is setup, please watch this video tutorial:&lt;BR&gt;
+&lt;BR&gt;
+http://mediasignage.com/html/signage_video.html?videoNumber=ServerConnection
+&lt;BR&gt;"/>
+		</Question>
+		<Question data="What is the SignageController software and do you need it?">
+			<Answer data="SignageController is a small software utility which is installed on the same machine that runs a desktop version of
+ SignagePlayer.
+&lt;BR&gt;
+&lt;BR&gt;
+The software is FREE and its job is to continue and monitor the status of SignagePlayer (essentially keeps the player healthy).
+ If for some reason SignagePayer crashes or becomes unstable, SignageController will restart it to ensure continued
+ uninterrupted playing of your presentation."/>
+		</Question>
+		<Question data="How can I disable the Adobe AIR software auto updates which Adobe releases?">
+			<Answer data="Simply download and install the following software in your SignagePlayer PC. Once installed, run it and configure it for &quot;No Auto Update&quot;.
+&lt;BR&gt;
+&lt;BR&gt;
+
+http://airdownload.adobe.com/air/applications/SettingsManager/SettingsManager.air
+&lt;BR&gt;"/>
+		</Question>
+		<Question data="How do I reset SignagePlayer settings (clears user name and password as well)?">
+			<Answer data="1. Close the SignagePlayer&lt;BR&gt;&lt;BR&gt;
+
+2. In Windows:&lt;BR&gt;
+&lt;BR&gt;
+Delete the following directories:&lt;BR&gt;
+C:\Documents and Settings\USER_NAME\Application Data\SignagePlayer.*&lt;BR&gt;&lt;BR&gt;
+Replace USER_NAME with your logged in user name.
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt; 
+In Ubuntu Linux:
+&lt;BR&gt;
+&lt;BR&gt;
+
+rm -f -r /home/root/.appdata/SignagePlayer.*  or /root/.appdata/SignagePlayer.*
+&lt;BR&gt;
+
+3. Restart the SignagePlayer&lt;BR&gt;&lt;BR&gt;
+
+4. Re-register with your new user email and password&lt;BR&gt;
+&lt;BR&gt;"/>
+		</Question>
+		<Question data="How do I clear the SignagePlayer cookie info so I can re-register?">
+			<Answer data="To delete all of the local info so you can reset the cached content, click on the [ERASER] icon in the SignageStudio &gt; Stations
+ section&lt;BR&gt;&lt;BR&gt;
+To delete the registered user local cookie so you can re-login delete the SignagePlayer.XXX directory:&lt;BR/&gt;
+&lt;BR/&gt;
+&lt;BR/&gt;
+In XP
+&lt;BR/&gt;
+Delete C:\Documents and Settings\USER_NAME\Application Data\SignagePlayer.XXX
+&lt;BR/&gt;
+&lt;BR/&gt;
+In Windows 7 / Vista
+&lt;BR/&gt;
+Delete C:\Users\USER_NAME\AppData\Roaming\SignagePlayer.XXX
+&lt;BR/&gt;
+&lt;BR/&gt;
+In Mac OS X
+&lt;BR/&gt;
+rm -r -f /Users/YOUR_USER/Library/Preferences/SignagePlayer.XXX
+&lt;BR/&gt;
+AND
+&lt;BR/&gt;
+rm -r -f /private/var/root/Library/Preferences/SignagePlayer.XXX
+&lt;BR/&gt;
+&lt;BR/&gt;
+In Linux / Ubuntu
+&lt;BR/&gt;
+rm -r -f /root/.appdata/Signage*
+&lt;BR/&gt;"/>
+		</Question>
+	</Topic>
+	<Topic data="Components and presentation">
+		<Question data="Can I connect external DVD, Satellite TV, Cable box or other input devices?">
+			<Answer data="We have the capability to connect any S-Video, RCA or beautiful High Definition (HD) source (satellite, cable, security cameras etc) via a capture card. Check this video and also be sure to watch the videos on the bottom: 
+
+http://mediasignage.com/html/digital_signage_capture.html
+
+You can get your own capture device OR get our mediaBOX available here: http://digitalsignage.me/html/advertising_monitor.html and get the added capture card add-on device here: 
+
+http://digitalsignage.me/html/extras.html "/>
+		</Question>
+		<Question data="Why is my input device blurry or squished (seeing interlace)?">
+			<Answer data="To remove the interlace (to deinterlace) you must set the width and height of the screen division where the capture component resides to match the input resolution.
+&lt;BR&gt;&lt;BR&gt;
+For example, for most DVD and other sources use a width and height that is a multiplier of 1.5. So try and set screen division to 720x480 and put the capture component inside that area to de-interlace.
+"/>
+		</Question>
+		<Question data="Do you support RSS, Weather, Stock, Podcasts?">
+			<Answer data="We support all common RSS feeds. We provide the editor tool so you may completely customize the look of any really simple syndication."/>
+		</Question>
+		<Question data="Can I run PowerPoint?">
+			<Answer data="The short answer is yes. The long answer is that we support the Microsoft PowerPoint Viewer but it does have some limitations as it requires full screen and licensing from Microsoft.  And so we highly recommend, that you simply spend $40 and get a PPT &gt; SWF convertor (Power Point to Flash converter). We recommend these two:  &lt;a href=&quot;http://www.acoolsoft.com/&quot;&gt;http://www.acoolsoft.com/&lt;/a&gt;  &lt;a href=&quot;http://www.flashdemo.net/&quot;&gt;http://www.flashdemo.net/&lt;/a&gt;&lt;/p&gt; which allows you to save directly from PowerPoint onto a swf file, easy!"/>
+		</Question>
+		<Question data="What are shared resources?">
+			<Answer data="Shared resources are sorts of our own Digital Signage social network. It allows you to mark resources as public and make them
+ available to the community to all users. Of course you may also use shared resources from the community for your own
+ presneation. Resources include videos, animation, vectors, bitmaps and more."/>
+		</Question>
+		<Question data="Can I add my own custom web components to my signage presentation?">
+			<Answer data="Our SignagePlayer Desktop version system supports the HTML component. This allows you to develop any component using your favorite web technology (cgi, php, Tcl, etc..). Once you post your developed application online (you host it) you can link to it from within signage studio using our HTML components. Simply point to your URL and your custom application will load into the AIRPlayer signage presentation (the SignagePlauer Web version does not support the HTML component)."/>
+		</Question>
+		<Question data="Can I develop my own SignagePlayer side custom components?">
+			<Answer data="Yes, MediaSignage supports custom Modules which may be developed in Flash CS4 or Adobe Flex. Be sure to view our online Support video tutorials on this subject."/>
+		</Question>
+	</Topic>
+	<Topic data="Enterprise edition and White Label">
+		<Question data="Who can become an Enterprise user?">
+			<Answer data="Anyone can sign-up to the mediaCLOUD Enterprise edition. No obligation, no contract and no hidden fees. Start using the white label features and generate repeat income. It's that easy."/>
+		</Question>
+		<Question data="When can I expect to start receiving income?">
+			<Answer data="As soon as you start charging your customers, it&#39;s your business model and you set your own prices, we just provide that tools!"/>
+		</Question>
+		<Question data="If I use the white label, wouldn't my users come directly to MediaSignage?">
+			<Answer data="MediaSignage has gone to great lengths to insure we are well hidden from white labeled sites. We use a 3rd domain named ( www . signage . me &lt;http://www.Signage.me&gt; )  to mask ourselves. In fact, our application, tutorials and XML traffic is all passed through this intermediate domain to prevent anyone from associating MediaSignage Inc with your white labeled product."/>
+		</Question>
+		<Question data="Can I charge my own prices?">
+			<Answer data="You can charge any price you see fit for your solution and services provided. MediaSignage is just a piece of the puzzle in your Digital Signage solution. "/>
+		</Question>
+		<Question data="Can I remove the MediaSignage Logo that is displayed when the Player is restarted?">
+			<Answer data="Yes, an End user account associated with an Enterprise account will display the branding, link backs, about information, and splash screen of the Enterprise account it is associared with.
+&lt;BR&gt;"/>
+		</Question>
+		<Question data="How do I embed your Flash components in my web site and what are the requirements?">
+			<Answer data="Under the Enterprise Studio click on tools to view sample HTML snippet which can be used to copy and paste onto your own site.
+ These components include both the referrer and white label HTML and JavaScript snippets."/>
+		</Question>
+		<Question data="Do I need to know how to program in order to become a branded / white labeled site?">
+			<Answer data="No. We take care of that for you. You just need to copy and paste the HTML snippet provided in the Enterprise Studio"/>
+		</Question>
+		<Question data="Can my web visitors find out about MediaSignage when I use white label?">
+			<Answer data="We go to great lengths to make sure our application and web services do not refer to MediaSignage in any way. We use our alias name of www Signage dot me to hide MediaSignage when white label is used."/>
+		</Question>
+		<Question data="Who supports my clients?">
+			<Answer data="As an Enterprise user you will support your clients directly and we will support you. This means that if your client has a question that you do not know the answer to, simply pass it along to us so we can help out."/>
+		</Question>
+		<Question data="Who charges your customers?">
+			<Answer data="You will bill your customers directly as per your set prices. We will charge you our posted prices. The difference is your profit."/>
+		</Question>
+		<Question data="Can anyone become a mediaCLOUD Enterprise user?">
+			<Answer data="Yes, any individual or company that pay the $99.00 a month (flat fee) will get full access to the mediaCLOUD Enterprise edition including the white label / branding, support and all additional features."/>
+		</Question>
+		<Question data="How are prices set for Enterprise users?">
+			<Answer data="Enterprise users pay a flat rate of $99.00 per month and get UNLIMITED SignagePlayer Licenses."/>
+		</Question>
+		<Question data="This sounds too good to be true, what am I missing?">
+			<Answer data="Nothing. MediaSignage Inc is changing the face of Digital Signage and we want to give everyone the opportunity to share our
+ success in this fast developing advertising medium of Digital Signage."/>
+		</Question>
+		<Question data="Why are you prices so low?">
+			<Answer data="It is our core business model to offer quality Digital Signage that everyone can afford. "/>
+		</Question>
+		<Question data="Can I charge different rates from the ones posted at MediaSignage?">
+			<Answer data="Yes. It&#39;s completely up to you to setup your own pricing plan. You can be more competitive and offer lower prices. Or
+ you can charge higher prices and include added-value narrowcasting services such as several hours of included Digital Signage
+ presentation design, free phone technical support and other packaged benefits. "/>
+		</Question>
+		<Question data="How can I control the pricing that my subscribers pay through my white labeled site?">
+			<Answer data="For now you can post them using standard HTML form or an image. In the near future we will have an advanced pricing component
+ which you will be able to embed in your web site as well. The component will be similar to the pricing component posted at
+ MediaSignage.com and you will have the ability to control the pricing through this component."/>
+		</Question>
+		<Question data="Are there any costs or hidden fees associated with the mediaCLOUD Enterprise edition?">
+			<Answer data="No, it is $99.00 a month, flat. No hidden fees, no setup costs, month to month payment plan. "/>
+		</Question>
+		<Question data="As a Enterprise user, how do I track and manage my clients?">
+			<Answer data="Enterprise users gain access to the Enterprise Studio so they can view in real time everything that is going on. In other words, as soon as visitor opens a free account, as soon as a free account is converted into a subscribed user or even changes to the number of players, all can be monitored.      &lt;BR&gt;&lt;BR&gt;"/>
+		</Question>
+		<Question data="How much storage can  I use on the mediaCLOUD Enterprise edition">
+			<Answer data="The mediaCLOUD Enterprise edition allows for a unlimited file storage for all sub-accounts combined for files such as videos, images and swf animations. There is a 25 Gigabytes limit (which is a lot) per single account which is under an Enterprise user. Of course you can have unlimited sub-users (aka sub accounts) thus taking advantage of unlimited cloud storage. "/>
+		</Question>
+	</Topic>
+</MediaSignage_FAQs>

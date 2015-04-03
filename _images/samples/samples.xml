@@ -1,0 +1,91 @@
+<Samples>
+   <Sample name='Travel' server='pluto' link='117998769414050f9ab8b330f7d6076688d0' image='0.jpg'/>
+   <Sample name='Health Club' server='pluto' link='117998779414050f9ab8b330f7d6076688d0' image='1.jpg'/>
+   <Sample name='Gym' server='pluto' link='117998749414050f9ab8b336f7d60d6688d7' image='2.jpg'/>
+   <Sample name='Flower Shop' server='pluto' link='117998759414050f9ab8b335f7d700668fd4' image='3.jpg'/>
+   <Sample name='Car Dealership' server='pluto' link='117998729414050f9ab8b336f7d6026688d6' image='4.jpg'/>
+   <Sample name='Hair Salon' server='pluto' link='117998739414050f9ab8b330f7d6076688d0' image='5.jpg'/>
+   <Sample name='Home and Garden' server='pluto' link='117998719414050f9ab8b337f7d6066688d1' image='6.jpg'/>
+   <Sample name='Hotel Lobby' server='pluto' link='1179987f9414050f9ab8b337f7d6006688d3' image='7.jpg'/>
+   <Sample name='Hobby Shop' server='venus' link='117999779414050f9ab8b330f7d6076688d0' image='8.jpg'/>
+   <Sample name='Pet Shop' server='pluto' link='117999749414050f9ab8b337f7d6066688d1' image='9.jpg'/>
+   <Sample name='Sports Bar' server='pluto' link='117999759414050f9ab8b336f7d6036688d4' image='10.jpg'/>
+   <Sample name='Museum' server='pluto' link='117999729414050f9ab8b337f7d6066688d1' image='11.jpg'/>
+   <Sample name='Coffee Shop' server='pluto' link='117999709414050f9ab8b337f7d6016688d2' image='12.jpg'/>
+   <Sample name='Bank' server='pluto' link='117999719414050f9ab8b337f7d6066688d1' image='13.jpg'/>
+   <Sample name='Gas Station' server='pluto' link='1179997e9414050f9ab8b337f7d6066688d1' image='14.jpg'/>
+   <Sample name='Sushi Restaurant' server='pluto' link='1179997f9414050f9ab8b337f7d6066688d1' image='15.jpg'/>
+   <Sample name='Casino' server='pluto' link='11799a769414050f9ab8b337f7d6066688d1' image='16.jpg'/>
+   <Sample name='Bicycle Shop' server='pluto' link='11799a779414050f9ab8b337f7d6006688d3' image='17.jpg'/>
+   <Sample name='Tanning Salon' server='pluto' link='11799a749414050f9ab8b337f7d6066688d1' image='18.jpg'/>
+   <Sample name='Pharmacy' server='pluto' link='11799a759414050f9ab8b337f7d6066688d1' image='19.jpg'/>
+   <Sample name='Laser Away' server='pluto' link='11799a729414050f9ab8b337f7d6066688d1' image='20.jpg'/>
+   <Sample name='Dentistry' server='pluto' link='11799a739414050f9ab8b337f7d6066688d1' image='21.jpg'/>
+   <Sample name='Clothing store' server='pluto' link='11799a709414050f9ab8b337f7d6066688d1' image='22.jpg'/>
+   <Sample name='Golf club' server='pluto' link='11799a719414050f9ab8b337f7d6066688d1' image='23.jpg'/>
+   <Sample name='RC Helis' server='pluto' link='11799a7e9414050f9ab8b337f7d6066688d1' image='24.jpg'/>
+   <Sample name='Food Menu boards' server='pluto' link='11799a7f9414050f9ab8b335f7d6006688d3' image='25.jpg'/>
+   <Sample name='7 Eleven' server='pluto' link='11799b769414050f9ab8b337f7d6006688d3' image='26.jpg'/>
+   <Sample name='Subway' server='pluto' link='11799b779414050f9ab8b337f7d6066688d1' image='27.jpg'/>
+   <Sample name='Super Market' server='pluto' link='11799b749414050f9ab8b337f7d6016688d2' image='28.jpg'/>
+   <Sample name='Investment Group' server='pluto' link='11799b759414050f9ab8b337f7d6066688d1' image='29.jpg'/>
+   <Sample name='Synagogue' server='pluto' link='11799b739414050f9ab8b337f7d6066688d1' image='30.jpg'/>
+   <Sample name='Dry Cleaning' server='pluto' link='11799b709414050f9ab8b336f7d6016688d2' image='31.jpg'/>
+   <Sample name='Ice Cream Shop' server='pluto' link='11799b719414050f9ab8b337f7d6066688d1' image='32.jpg'/>
+   <Sample name='Real Estate office' server='pluto' link='11799b7e9414050f9ab8b337f7d6066688d1' image='33.jpg'/>
+   <Sample name='Night Club' server='pluto' link='11799b7f9414050f9ab8b337f7d6066688d1' image='34.jpg'/>
+   <Sample name='Hockey' server='pluto' link='11799c769414050f9ab8b337f7d6066688d1' image='35.jpg'/>
+   <Sample name='Train Station' server='pluto' link='11799c779414050f9ab8b337f7d6066688d1' image='36.jpg'/>
+   <Sample name='Realtor' server='pluto' link='11799c749414050f9ab8b337f7d6066688d1' image='37.jpg'/>
+   <Sample name='Toy Store' server='pluto' link='11799c759414050f9ab8b337f7d6066688d1' image='38.jpg'/>
+   <Sample name='Indian Restaurant' server='pluto' link='11799c729414050f9ab8b337f7d6066688d1' image='39.jpg'/>
+   <Sample name='Library' server='pluto' link='11799c739414050f9ab8b337f7d6066688d1' image='40.jpg'/>
+   <Sample name='Movie Theater' server='pluto' link='11799c709414050f9ab8b337f7d6066688d1' image='41.jpg'/>
+   <Sample name='Airport' server='pluto' link='11799c719414050f9ab8b337f7d6066688d1' image='42.jpg'/>
+   <Sample name='LAX' server='pluto' link='11799c7e9414050f9ab8b337f7d6066688d1' image='43.jpg'/>
+   <Sample name='Parks and Recreations' server='pluto' link='117998758809050f9ab8a92fedd219788dccdf45' image='44.jpg'/>
+   <Sample name='Motel' server='pluto' link='117998758908050f9ab8a92fedd7197889ccdf41' image='45.jpg'/>
+   <Sample name='Corner Bakery' server='pluto' link='117998758a0a050f9ab8a92fedd119788fccdf43' image='46.jpg'/>
+   <Sample name='Retirement home' server='pluto' link='117998758b09050f9ab8a92fedd119788fccdf43' image='47.jpg'/>
+   <Sample name='Navy recruiting office' server='pluto' link='117998758e00050f9ab8a92fedd7197889ccdf41' image='48.jpg'/>
+   <Sample name='Martial arts school' server='pluto' link='11799875810f050f9ab8a92fedd7197889ccdf41' image='49.jpg'/>
+   <Sample name='Supercuts' server='pluto' link='11799872890c050f9ab8a92fedd7197889ccdf41' image='50.jpg'/>
+   <Sample name='The UPS Store' server='pluto' link='117998728b0a050f9ab8a92fedd0197888ccdf40' image='51.jpg'/>
+   <Sample name='Cruise One' server='pluto' link='117998728b00050f9ab8a92fedd7197889ccdf41' image='52.jpg'/>
+   <Sample name='Car services' server='pluto' link='11799872800b050f9ab8a92fedd7197889ccdf41' image='53.jpg'/>
+   <Sample name='fedex kinkos' server='pluto' link='11799873880b050f9ab8a92fedd7197888ccdf40' image='54.jpg'/>
+   <Sample name='veterinarian' server='pluto' link='117998738908050f9ab8a92fedd7197889ccdf41' image='55.jpg'/>
+   <Sample name='YMCA' server='pluto' link='117998738d0e050f9ab8a92fedd7197889ccdf41' image='56.jpg'/>
+   <Sample name='Tax services' server='pluto' link='117998738f0c050f9ab8a92fedd7197889ccdf41' image='57.jpg'/>
+   <Sample name='Wedding planner' server='pluto' link='117998738001050f9ab8a92fedd0197888ccdf40' image='58.jpg'/>
+   <Sample name='Cleaning services' server='pluto' link='117998738108050f9ab8a92fedd7197889ccdf41' image='59.jpg'/>
+   <Sample name='Pet Training' server='pluto' link='117998708a08050f9ab8a92fedd7197889ccdf41' image='60.jpg'/>
+   <Sample name='Gymboree Kids' server='pluto' link='117998708e09050f9ab8a92fedd7197889ccdf41' image='61.jpg'/>
+   <Sample name='Trader Joes' server='pluto' link='117998708f0f050f9ab8a92fedd7197889ccdf41' image='62.jpg'/>
+   <Sample name='Men Haircuts' server='pluto' link='11799870810d050f9ab8a92fedd0197888ccdf40' image='63.jpg'/>
+   <Sample name='Jiffy Lube' server='pluto' link='117998718a0a050f9ab8a92fedd7197889ccdf41' image='64.jpg'/>
+   <Sample name='Toyota  car dealer' server='pluto' link='117998718b00050f9ab8a92fedd7197889ccdf41' image='65.jpg'/>
+   <Sample name='Winery' server='pluto' link='117998718c0f050f9ab8a92fedd0197888ccdf40' image='66.jpg'/>
+   <Sample name='Savings and Loans' server='pluto' link='117998718f09050f9ab8a92fedd7197889ccdf41' image='67.jpg'/>
+   <Sample name='Nail Salon' server='pluto' link='1179987e880d050f9ab8a92fedd7197889ccdf41' image='68.jpg'/>
+   <Sample name='Weight Watchers' server='pluto' link='1179987e8a0a050f9ab8a92fedd0197888ccdf40' image='69.jpg'/>
+   <Sample name='Dollar Tree' server='pluto' link='1179987e8101050f9ab8a92fedd7197889ccdf41' image='70.jpg'/>
+   <Sample name='Western Bagles' server='pluto' link='1179987f8b00050f9ab8a92fedd019788fccdf43' image='71.jpg'/>
+   <Sample name='Kaiser Permanente' server='pluto' link='1179987f8d01050f9ab8a92fedd7197889ccdf41' image='72.jpg'/>
+   <Sample name='Church' server='pluto' link='12799d718b0c050f9ab8a92fedd019788dccdf44' image='73.jpg'/>
+   <Sample name='Dr. Waiting Room' server='pluto' link='12799e71800a050f9ab8a92fedd2197888ccdf40' image='74.jpg'/>
+   <Sample name='College' server='pluto' link='127b98758d0c050f9ab8a92fedd0197888ccdf40' image='75.jpg'/>
+   <Sample name='Funeral home' server='pluto' link='137998778c0b050f9ab8a92fedd0197888ccdf40' image='76.jpg'/>
+   <Sample name='NFL Stadium' server='pluto' link='137998718e01050f9ab8a92fedd019788fccdf43' image='77.jpg'/>
+   <Sample name='University Campus' server='pluto' link='1379997e890c050f9ab8a92fedd0197888ccdf40' image='78.jpg'/>
+   <Sample name='Day care' server='pluto' link='13799b768b00050f9ab8a92fedd0197888ccdf40' image='79.jpg'/>
+   <Sample name='GameStop' server='pluto' link='13799c728b08050f9ab8a92fedd0197888ccdf40' image='80.jpg'/>
+   <Sample name='Starbucks' server='pluto' link='13799d74880e050f9ab8a92fedd0197888ccdf40' image='81.jpg'/>
+   <Sample name='General Hospital' server='pluto' link='13799d758b0b050f9ab8a92fedd7197889ccdf41' image='82.jpg'/>
+   <Sample name='Del Taco' server='pluto' link='13799f71890b050f9ab8a92fedd0197888ccdf40' image='83.jpg'/>
+   <Sample name='training and fitness' server='pluto' link='13799074800b050f9ab8a92fedd0197888ccdf40' image='84.jpg'/>
+   <Sample name='winery@ms.com' server='pluto' link='137991758e0d050f9ab8a92fedd1197882ccdf49' image='85.jpg'/>
+   <Sample name='Law Firm' server='pluto' link='1378987e8f01050f9ab8a92fedd0197888ccdf40' image='86.jpg'/>
+   <Sample name='High school K12 hall' server='pluto' link='137899738901050f9ab8a92fedd0197888ccdf43' image='87.jpg'/>
+</Samples>
+ 

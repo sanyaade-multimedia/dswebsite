@@ -1,0 +1,116 @@
+﻿.carousel-container
+{
+    position: relative;
+    width: 995px;
+	margin:0px auto; 
+}
+
+.project-slider-wrap {
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 975px;
+    z-index: 2;
+}
+
+.project-slider {
+    height: 187px;
+    list-style: none outside none;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    width: 978px;
+    z-index: 0;
+}
+
+.project-slider li {
+    background: url("../_images/bg-project_frames_drops.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 187px;
+    position: relative;
+    width: 326px;
+}
+
+.project-slider li img {
+    left: 29px;
+    position: absolute;
+    top: 11px;
+    border: none;
+}
+
+.project-slider li .panel {
+    background: none repeat scroll 0 0 .0A0B07;
+    bottom: 4px;
+    height: 26px;
+    left: 61px;
+    overflow: hidden;
+    position: absolute;
+    width: 192px;
+    z-index: 15;
+    background-color: Black;
+    font: 12px 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.project-slider li .panel .panel-title {
+    font-size: 10px;
+    background: url("../_images/panel-up.png") no-repeat #0A0B07;
+}
+
+.project-slider li .panel .panel-title a
+{
+    display: block;
+    height: 29px;
+    padding-top: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #96986B;
+    text-decoration: none;
+    outline: 0 none;
+}
+
+.project-slider li .panel .panel-title a:hover {
+    color: #CDCF91 !important;
+}
+
+.project-slider li .panel .panel-title-opened
+{
+    background: url("../_images/panel-down.png") no-repeat #0A0B07 !important;
+}
+
+.project-slider li .panel p {
+    color: #93945E;
+    font-size: 10px;
+    line-height: 18px;
+    margin: 0 20px 15px;
+    text-align: center;
+}
+
+.carousel-container a.back:link, .carousel-container a.back:visited {
+    background-image: url("../_images/btn-cycle_left.png") !important;
+    left: 390px;
+    right: auto;
+}
+
+.carousel-container a.back:link, .carousel-container a.back:visited, .carousel-container a.next:link, .carousel-container a.next:visited {
+    background: url("../_images/btn-cycle_right.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 65px;
+    position: absolute;
+    right: 407px;
+    text-indent: -13000em;
+    top: 202px;
+    width: 65px;
+    z-index: 10;
+    border: none;
+    outline: 0 none;
+}
+
+
+.carousel-container a.back:hover, .carousel-container a.back:active, .carousel-container a.next:hover, .carousel-container a.next:active {
+    background-position: 0 -65px;
+    z-index: 7;
+}

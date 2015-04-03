@@ -1,0 +1,83 @@
+﻿#featuresContainer table
+{
+    border-width: 1px;
+    border-color: rgb(253, 241, 204);
+    border-style: none;
+    border-collapse: separate;
+    width: 100%;
+}
+#featuresContainer table td
+{
+    border-style: none none solid;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    /*font-family: Arial,Helvetica,Geneva,Sans-serif;*/
+	font-family:"Roboto", arial, sans-serif;
+	font-weight: 300;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+    height: auto;
+	padding:5px 0px;
+}
+#featuresContainer .top-bar
+{
+    background-color: rgb(204, 204, 204);
+    font-size: 9px;
+    height: 20px !important;
+}
+#featuresContainer .title-cell
+{
+    border-style: none none solid;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 0px;
+    /*font-family: Arial,Helvetica,Geneva,Sans-serif;*/
+	font-family:"Roboto", arial, sans-serif;
+	font-weight: 300;
+    font-size: 14px;
+    color: rgb(51, 51, 51) !important;
+    font-weight: bold;
+    height: 40px !important;
+}
+#featuresContainer .cell-col1
+{
+    width: 489px;
+}
+#featuresContainer .cell-secondary
+{
+    width: 90px;
+    text-align: center;
+}
+#featuresContainer .subtitle
+{
+    background-color: rgb(245, 245, 245);
+    color: rgb(128, 128, 128);
+}
+#featuresContainer .blue-text-cell
+{
+    text-align: center;
+    color: rgb(0, 102, 255) !important;
+}
+#featuresContainer .green-text-cell
+{
+    text-align: center;
+    color: rgb(102, 153, 51) !important;
+}
+#featuresContainer .centered
+{
+    text-align: center;
+}
+#featuresContainer .hoverrow
+{
+    background-color: rgb(224,224,224);
+    cursor: pointer;
+}
+#featuresContainer .hiddenRow
+{
+    font-size: 12px !important;
+    color: rgb(51, 51, 51) !important;
+    border-style: none none solid;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    /*font-family: Arial,Helvetica,Geneva,Sans-serif;*/
+	font-family:"Roboto", arial, sans-serif;
+	font-weight: 300;
+    padding: 5px;
+}

@@ -1,0 +1,77 @@
+.faq_wrapper
+{
+	background-color: #FFFFFF;
+	color: #444444;	
+	padding-top: 17px;
+	padding-bottom: 20px;
+	padding-left: 16px;
+	position: relative;
+	width: 649px;
+}
+.faq
+{
+	color: #333333;
+	/*font: 75%/1 Arial,Helvetica,sans-serif;*/
+	font: 75%/1 'Roboto', sans-serif;
+	font-weight: 400;
+}
+h2
+{
+	font-size: 1.667em;
+	line-height: 1.2em;
+	margin-bottom: 0.5em;
+	margin-top: 0;
+}
+
+h3 {
+	font-weight: normal;
+	color: #333333;
+}
+
+h1, h2
+{
+	font-weight: normal;
+}
+.topic
+{
+	margin: 0px;
+}
+.topic .header
+{
+	background-position: 4px center;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #FFFFFF;
+	cursor: pointer;
+	margin: 0;
+	padding: 3px 5px 3px 16px;
+	background-color: #DCDCDC;
+	background-image: url(http://mediasignage.com/assets/images/sm-arrow-right.png);
+}
+.topic .opened
+{
+	background-color: #F5F5F5;
+	background-image: url(http://mediasignage.com/assets/images/sm-arrow-down.png);
+}
+.topic .content
+{
+	display: none;
+	margin: 0px 0px 0px 16px;
+	padding: 0px;
+	position: relative;
+}
+.topic .content .question
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #111111;
+	font-size: 1.083em;
+	line-height: 1.31;
+}
+.topic .content .answer
+{
+	font-size: 1.083em;
+	line-height: 1.462;
+	margin-bottom: 1.2em;
+	margin-top: 0;
+	padding-bottom: 1px;
+}

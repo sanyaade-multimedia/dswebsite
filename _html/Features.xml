@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by John Doe (ACME Inc.) -->
+<features>
+	<columnTitles>
+		<column>Features and benefits</column>
+		<column>
+      End user&lt;br/&gt;
+      &lt;span style=&quot;font-size: 10px; color: rgb(255, 0, 0);&quot;&gt;FREE&lt;/span&gt;
+    </column>
+		<column>
+      Enterprise&lt;br/&gt;
+      &lt;span style=&quot;font-size: 10px;&quot;&gt;subscription&lt;/span&gt;
+    </column>
+	</columnTitles>
+	<featureGroup name="The Application advantage">
+		<feature name="SignageStudio Web / Desktop - access to all core studio features - multi OS">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Use the powerful SignageStudio (web or desktop versions) and build an elaborate campaign using MRSS, RSS, Live TV, HD Videos, swf animation, Weather, Stock and much more. Manage all your campaigns and unlimited remote signage players. </extra>
+		</feature>
+		<feature name="SignagePlayer Mobile / Web / Desktop - access to all core player features - multi OS">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Digital Signage, robust, cross platform Players with full remote access.  Use Unlimited licenses (install unlimited SignagePlayers) and all for FREE. The FREE SignagePlayer include the iPhone, iPad, Android, Windows, Linux and Mac versions.</extra>
+		</feature>
+		<feature name="SignageMobile remote management">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Manage your remote players using any smart phone including Android and iPhone. Get Live Snapshots and push updates all from your mobile device. </extra>
+		</feature>
+		<feature name="Hundreds of shared resources, templates, samples and scenes">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Take advantage of hundreds of pre-made Scenes, Weather, Vector based background, clocks, dynamic digital menu boards, carousels, editable directories and more. Also you can pick from dozens of fully editable Signage templates. </extra>
+		</feature>
+		<feature name="Total storage on the mediaCLOUD">
+			<cell checked="0" bold="1" isBlue="1" isGreen="0">1GB</cell>
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">unlimited</cell>
+			<extra>Enterprise users receives unlimited storage on the mediaCLOUD to store videos, animation and images. None Enterprise Users total server storage set to 1 Gigabyte. </extra>
+		</feature>
+		<feature name="Network bandwidth">
+			<cell checked="0" bold="1" isBlue="1" isGreen="0">TBA*</cell>
+			<cell checked="0" bold="1" isBlue="0" isGreen="1">unlimited</cell>
+			<extra>Enterprise users can download and upload with no limits as we do not cap bandwidth speeds.  None Enterprise Users bandwidth limits to be announced. </extra>
+		</feature>
+		<feature name="Multi user management">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Collaborate with other users.  Work together on the same campaign and use source control to merge your work. Use perforce like features to manage your updates between you and other team members.</extra>
+		</feature>
+		<feature name="Central SignageStudio access">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Manage unlimited number of accounts and remote SignagePlayer all using central login. Get a global view of your entire player stats and receive live notifications.</extra>
+		</feature>
+		<feature name="EnterprsieStudio access">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Manage your network, setup branding, apply permissions, inject access control lists and more, all using single point  and click management.</extra>
+		</feature>
+		<feature name="SignageStudio white label / branding">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Brand the entire solution. Copy and paste the provided HTML snippet and allow customer login and create new account access directly from your own web site. All with your own domain, custom logos and link backs. </extra>
+		</feature>
+		<feature name="SignagePlayer immediate updates">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>When pushing updates from the SignageStudio to SignagePlayers, Enterprise branded splash screen (your logo) will appear for 1-2 seconds before new campaign is loaded; compared to none Enterprise SignagePlayers which will display MediaSignage Logo for 20 seconds or more. </extra>
+		</feature>
+		<feature name="SignagePlayer white label / branding">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Set the SignagePlayers to display your company’s information anytime the Player is started or rebooted. Make MediaSignage transparent to your clients. </extra>
+		</feature>
+		<feature name="Branded Embedded SignagePlayer">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Embed the SignagePlayer Embedded version directly onto your own web site. Enterprise edition users can remove the Copyrights snippet and set no references to MediaSignage, make it your own.</extra>
+		</feature>
+		<feature name="Advertising Manager">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Manage thousands of Ads across any number of businesses using the “Incoming” Ad Manager module and provide proof of play to your advertises.  Set Approval rules and schedule Advertising start and end dates.</extra>
+		</feature>
+		<feature name="Advertising engine ">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>
+			
+			Take advantage of our robust Advertising Engine, read more and checkout the video tutorial here:
+			
+ &lt;/b&gt; &lt;a href=&quot;http://www.mediasignage.com/html/advertising_engine.html&quot; title=&quot;Advertising Engine&quot;&gt;&lt;span&gt;&lt;span&gt;Advertising Engine&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;
+
+			
+			</extra>
+		</feature>
+		<feature name="Access Control List ">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Access Control Lists allow you to set specific regions within the SignageStudio using detailed 8 levels of control. Hide area you do not want specific users to access while maintaining full admin access to others.</extra>
+		</feature>
+		<feature name="Privileges">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Privileges are set to control what users can do within the SignageStudio. Privileges include, read, update and modify control. Create unlimited number of sub-users each with its own privileged group assignment. </extra>
+		</feature>
+		<feature name="Multi business central management">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Get a global view of all businesses across the entire network from a central studio manager.</extra>
+		</feature>
+		<feature name="Multi player central management">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Get a global view of all Players across the entire network from a central studio manager.</extra>
+		</feature>
+		<feature name="Multi user management ">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Create unlimited number of users each with its own ACL and permission group. Use default privileges for easy group privileged assignment.</extra>
+		</feature>
+		<feature name="SignageStudio custom themes and CSS control">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Choose a custom look and feel for the SignageStudio through pre-configured CSS Themes (Themes are based on a light and dark coloring scheme).</extra>
+		</feature>
+		<feature name="mediaSTORE all component access">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Get all the latest Digital Signage components and all are included with the Enterprise account. Some of these components include XML, Facebook, Twitter, Collection, Form, QR code and more.</extra>
+		</feature>
+		<feature name="Access the API">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Develop your own interface using the Application Programming Interface for your Advertisers using web services and embed onto your own web site. Use any programming language including ActionScript 3, ASP.NET, PHP and more. Create a fully automated system with your CMS for Ad package creation, resource uploads and more.</extra>
+		</feature>
+		<feature name="Access the SDK">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>The Software Development Kit is a set of libraries that allow you to easily develop SignageStudio and SignagePlayer components. The components are developed using the open source Adobe® / Flex SDK™ and compiled against our provided open source library. You start with a working example and modify it to build your first component.</extra>
+		</feature>
+		<feature name="Private Library of resources, videos, background and masks">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Access hundreds of pre-made resources including backgrounds, masks, source SDKs, videos, images, swf animations and more.</extra>
+		</feature>
+	</featureGroup>
+	<featureGroup name="The Business advantage">
+		<feature name="Live chat support (7 days a week)">
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>We are always here to support you, just click on the Live Chat right from the SignageStudio or from the MediaSignage web site and speak to a professional support team member. We work extra hard for you including Saturday and Sunday.</extra>
+		</feature>
+		<feature name="Full rights to sell the entire solution">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Resell the entire MediaSignage as your own to anyone and generate revenue. Manage unlimited number of clients and unlimited number of Digital Signage screens.</extra>
+		</feature>
+		<feature name="Unlimited mediaSERVER support">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>MediaSignage dedicated support through phone, email, forum and Live Chat.  Support is guaranteed within 24 hours. Normally we reply to Enterprise member inquiries within 1 hour of extended business hours.</extra>
+		</feature>
+		<feature name="Phone technical support">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Receive priority dedicated phone support and technical assistance. Support is guaranteed within 24 hours. Normally we reply to Enterprise member inquiries within 1 hour of extended business hours.</extra>
+		</feature>
+		<feature name="Discounts on mediaBOX">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Receive 5% OFF the mediaBOX (all version including Linux / Ubuntu and Windows / Embedded version.</extra>
+		</feature>
+		<feature name="mediaSERVER Licenses discounts">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Get lower prices on the mediaSERVER Licenses. Prices drop to as low as $130.00 per single license (depends on volume).</extra>
+		</feature>
+		<feature name="Unbranded email support for your customers">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>provide none branded email support to your customers through our professional support team.</extra>
+		</feature>
+		<feature name="Reseller Marketing material branded to your Company">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Take advantage of marketing material including flyers, brochures, business card, white papers and more. Download the source files and modify with your own company’s logo and information.</extra>
+		</feature>
+		<feature name="Participate in the Lead generation program">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Receive leads generated from potential new clients and increase your business exposure.</extra>
+		</feature>
+		<feature name="Access the mediaADNET">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Expose your Advertising Network through our mediaADNET and increase the exposure of your screens to national and international advertisers.</extra>
+		</feature>
+		<feature name="Link backs from MediaSignage.com to your web site">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Increase online traffic to your own Digital Signage web site through link backs and access the partner program.</extra>
+		</feature>
+		<feature name="Early access to special promotions and package discounts">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Receive early access to special discounts, promotions and news. 
+</extra>
+		</feature>
+		<feature name="General Consulting and advice">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Consult our support team for additional information and resources concerning Digital Signage installation, maintenance and setup.</extra>
+		</feature>
+		<feature name="Direct access the online Video Tutorials">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Host the entire video tutorials content library on your own web site, none branded.</extra>
+		</feature>
+		<feature name="Permission to use material from the MediaSignage.com web site">
+			<cell checked="0" bold="0" isBlue="0" isGreen="0"/>
+			<cell checked="1" bold="0" isBlue="0" isGreen="0"/>
+			<extra>Copy and paste information from the MediaSignage.com web site to your own site and promote your company with proven content.</extra>
+		</feature>
+	</featureGroup>
+</features>
