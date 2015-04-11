@@ -873,18 +873,18 @@ if (typeof jQuery === 'undefined') {
   }
 
   var old = $.fn.dropdown
-
+/*
  // $.fn.dropdown             = Plugin
-  $.fn.dropdown.Constructor = Dropdown
+  $.fn.dropdown.Constructor = Dropdown*/
 
 
   // DROPDOWN NO CONFLICT
   // ====================
 
-  $.fn.dropdown.noConflict = function () {
+  /*$.fn.dropdown.noConflict = function () {
     $.fn.dropdown = old
     return this
-  }
+  }*/
 
 
   // APPLY TO STANDARD DROPDOWN ELEMENTS

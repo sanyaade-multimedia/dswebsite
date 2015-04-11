@@ -17,6 +17,7 @@ var shell = require('gulp-shell');
 var minifyHTML = require('gulp-minify-html');
 var fs = require('fs');
 var Rsync = require('rsync');
+var convertEncoding = require('gulp-convert-encoding');
 var server;
 
 gulp.task('headerFooterGenerator', function (done) {
@@ -24,12 +25,11 @@ gulp.task('headerFooterGenerator', function (done) {
 });
 
 
-
 gulp.task('rsync', function () {
     var rsync = Rsync.build({
-        source: '/cygdrive/c/msweb/mswebsite_local/_html/',
-        destination: 'root@digitalsignage.com:/var/www/sites/dynasite/htdocs/_msportal/_js/_node/siteSource/sites/mediasignage.com/htdocs/_html',
-        exclude: ['.git', '*SignageStudio/', '*Spotify/']
+        source: '/cygdrive/c/msweb/dswebsite/',
+        destination: 'root@digitalsignage.com:/var/www/sites/mediasignage.com/htdocs/',
+        exclude: ['.git', '*node_modules', '*SignageStudio/', '*Spotify/']
     });
     rsync.set('progress');
     rsync.flags('avz');
@@ -47,7 +47,7 @@ gulp.task('rsync', function () {
 });
 
 
-gulp.task('liveServer', ['watchTmpDir'], function () {
+gulp.task('liveServer', ['watchHTML'], function () {
     server = express();
     server.use(express.static('C:/msweb/dswebsite/'));
     server.listen(8002);
@@ -65,13 +65,13 @@ gulp.task('gulpLocalTranslate', function () {
 });
 
 
-
 gulp.task('_headerFooterGenerator', function () {
     // var opts = {comments: true, spare: true};
-    gulp.src('./_html/*.html')
+    gulp.src('./_source/*.html')
         .pipe(headerfootergen('./index.html')).on('error', handleError)
         //.pipe(minifyHTML(opts))
-        .pipe(gulp.dest('./_final/'))
+        //.pipe(convertEncoding({to: 'utf8'}))
+        .pipe(gulp.dest('./_html/'))
         //.pipe(reload())
 });
 
@@ -110,6 +110,7 @@ gulp.task('_makeLegacyFiles', function () {
     fs.createReadStream(d + 'get_started.html').pipe(fs.createWriteStream(d + 'digital_signage_saas.html'));
     fs.createReadStream(d + 'get_started.html').pipe(fs.createWriteStream(d + 'digital_out_of_home.html'));
     fs.createReadStream(d + 'cloud_vs_server.html').pipe(fs.createWriteStream(d + 'free_digital_signage.html'));
+    fs.createReadStream(d + 'content_creation.html').pipe(fs.createWriteStream(d + 'content.html'));
     fs.createReadStream(d + 'about.html').pipe(fs.createWriteStream(d + 'about_us.html'));
 
 });
@@ -136,10 +137,10 @@ gulp.task('watch', function () {
 });
 
 
-gulp.task('watchTmpDir', function () {
+gulp.task('watchHTML', function () {
     console.log('watching source files');
     gulp.watch('./index.html', ['headerFooterGan']);
-    gulp.watch('./_tmp/*.html', ['headerFooterGan']);
+    gulp.watch('./_html/*.html', ['headerFooterGan']);
     gulp.watch('./css/*', ['headerFooterGan']);
 });
 
