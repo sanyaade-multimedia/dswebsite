@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>FREE Digital Signage for everyone</title>
+	<title>our Digital Signage customers </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -181,6 +181,92 @@
 <!-- HEADER_END -->
 
 <!-- MAIN_CONTENT_START -->
+<!-- TITLE_NAME: our Digital Signage customers -->
+
+
+<script type="text/javascript">
+    /* $(function(){
+     $(".dropdown").hover(
+     function() {
+     $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+     $(this).toggleClass('open');
+     },
+     function() {
+     $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+     $(this).toggleClass('open');
+     });
+     });*/
+    $(document).ready(function() {
+        $('.navbar-nav > li.dropdown').hover(function() {
+                    $('ul.dropdown-menu', this).stop(true, true).slideDown('fast');
+                    $(this).addClass('open');
+                },
+                function() {
+                    $('ul.dropdown-menu', this).stop(true, true).slideUp('fast');
+                    $(this).removeClass('open');
+                });
+
+        $('#slider1').bxSlider();
+        $('#slider2').bxSlider();
+        $('#slider3').bxSlider({
+            //adaptiveHeight: true
+        });
+    });
+</script>
+<script src="../../_js/owl.carousel.js"></script>
+<script>
+    $(document).ready(function() {
+
+        var owl = $("#owl-demo");
+
+        owl.owlCarousel();
+
+        // Custom Navigation Events
+        $(".next").click(function(){
+            owl.trigger('owl.next');
+        })
+        $(".prev").click(function(){
+            owl.trigger('owl.prev');
+        })
+        $(".play").click(function(){
+            owl.trigger('owl.play',1000);
+        })
+        $(".stop").click(function(){
+            owl.trigger('owl.stop');
+        })
+
+
+    });
+
+    $(document).ready(function() {
+
+        var owl = $("#owl-demo1");
+
+        owl.owlCarousel({
+
+            itemsCustom : [
+                [0, 1],
+                [450, 1],
+                [550, 2],
+                [600, 2],
+                [650, 2],
+                [700, 2],
+                [900, 2],
+                [960, 2],
+                [1000, 3],
+                [1200, 4],
+                [1400, 4],
+                [1600, 5]
+            ],
+            lazyLoad : true,
+            autoPlay : false,
+            navigation : true
+
+        });
+
+    });
+</script>
+
 <section class="inner_banner">
     <div class="container">
         <div class="row">
@@ -298,9 +384,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/aaae.png" />
-                </article>
+
             </div>
         </div>
         <div class="row ">
@@ -313,9 +397,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/yournnlogo.png" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -328,9 +410,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/telix.png" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -343,9 +423,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/capsigns.png" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -358,9 +436,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/verio.png" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -373,9 +449,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/logo_nexsign.png" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -388,9 +462,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/bplog.png" class="m_image2" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -403,9 +475,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/avplan.png" class="m_image2" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -418,9 +488,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/nv3.png" class="m_image2" />
-                </article>
+
             </div>
         </div>
         <div class="row">
@@ -434,9 +502,7 @@
                 </article>
             </div>
             <div class="col-md-6">
-                <article>
-                    <img src="../_images/caerlogo.png" class="m_image2" />
-                </article>
+
             </div>
         </div>
 

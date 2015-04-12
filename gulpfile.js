@@ -20,6 +20,11 @@ var Rsync = require('rsync');
 var convertEncoding = require('gulp-convert-encoding');
 var server;
 
+
+gulp.task('compile', function (done) {
+    runSequence('_makeLegacyFiles', '_headerFooterGenerator', 'rsync', done);
+});
+
 gulp.task('headerFooterGenerator', function (done) {
     runSequence('_makeLegacyFiles', '_headerFooterGenerator', done);
 });
