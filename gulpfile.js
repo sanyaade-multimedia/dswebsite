@@ -18,16 +18,18 @@ var minifyHTML = require('gulp-minify-html');
 var fs = require('fs');
 var Rsync = require('rsync');
 var convertEncoding = require('gulp-convert-encoding');
+var gulpIgnore = require('gulp-ignore');
 var server;
 
 
 gulp.task('compile', function (done) {
-    runSequence('_makeLegacyFiles', '_headerFooterGenerator', 'rsync', done);
+    runSequence('_makeLegacyFiles', '_headerFooterGenerator', '_minifyHTML', 'rsync', done);
 });
 
 gulp.task('headerFooterGenerator', function (done) {
     runSequence('_makeLegacyFiles', '_headerFooterGenerator', done);
 });
+
 
 
 gulp.task('rsync', function () {
@@ -63,11 +65,17 @@ gulp.task('liveServer', ['_watchSource'], function () {
 
 
 gulp.task('_headerFooterGenerator', function () {
-    // var opts = {comments: true, spare: true};
     gulp.src('./_source/*.html')
         .pipe(headerfootergen('./index.html')).on('error', handleError)
-        //.pipe(minifyHTML(opts))
-        //.pipe(convertEncoding({to: 'utf8'}))
+        .pipe(gulp.dest('./_html/'))
+        .pipe(reload())
+});
+
+gulp.task('_minifyHTML', function () {
+    var opts = {comments: true, spare: true};
+    gulp.src('./_html/*.html')
+        .pipe(gulpIgnore.exclude('**/signage_video.html'))
+        .pipe(minifyHTML(opts))
         .pipe(gulp.dest('./_html/'))
         .pipe(reload())
 });
