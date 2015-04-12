@@ -10,15 +10,15 @@ var gulp = require('gulp');
 var express = require('express');
 var gutil = require('gulp-util');
 var headerfootergen = require('gulp-header-footer-gen');
-var gulplocaltranslate = require('gulp-local-translate');
 var browserSync = require('browser-sync');
 var runSequence = require('run-sequence');
 var shell = require('gulp-shell');
 var minifyHTML = require('gulp-minify-html');
 var fs = require('fs');
 var Rsync = require('rsync');
-var convertEncoding = require('gulp-convert-encoding');
 var gulpIgnore = require('gulp-ignore');
+var convertEncoding = require('gulp-convert-encoding');
+var gulplocaltranslate = require('gulp-local-translate');
 var server;
 
 
@@ -73,11 +73,11 @@ gulp.task('_headerFooterGenerator', function () {
 
 gulp.task('_minifyHTML', function () {
     var opts = {comments: true, spare: true};
+    var condition = '**/_html/signage_video.html';
     gulp.src('./_html/*.html')
-        .pipe(gulpIgnore.exclude('**/signage_video.html'))
+        .pipe(gulpIgnore.exclude(condition))
         .pipe(minifyHTML(opts))
         .pipe(gulp.dest('./_html/'))
-        .pipe(reload())
 });
 
 gulp.task('_watchSource', function () {
