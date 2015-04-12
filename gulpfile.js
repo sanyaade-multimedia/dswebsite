@@ -47,21 +47,13 @@ gulp.task('rsync', function () {
 });
 
 
-gulp.task('liveServer', ['watchHTML'], function () {
+gulp.task('liveServer', ['_watchSource'], function () {
     server = express();
     server.use(express.static('C:/msweb/dswebsite/'));
     server.listen(8002);
     browserSync({
         proxy: 'localhost:8002'
     });
-});
-
-
-gulp.task('gulpLocalTranslate', function () {
-    gulp.src('./_source/*.html')
-        .pipe(gulplocaltranslate('5')).on('error', handleError)
-        .pipe(gulp.dest('./_tmp/'))
-        .pipe(reload());
 });
 
 
@@ -72,18 +64,15 @@ gulp.task('_headerFooterGenerator', function () {
         //.pipe(minifyHTML(opts))
         //.pipe(convertEncoding({to: 'utf8'}))
         .pipe(gulp.dest('./_html/'))
-    //.pipe(reload())
+        .pipe(reload())
 });
 
-
-gulp.task('default', ['headerFooterGan'], function () {
+gulp.task('_watchSource', function () {
+    console.log('watching source files');
+    gulp.watch('./index.html', ['_headerFooterGenerator']);
+    gulp.watch('./_source/*.html', ['_headerFooterGenerator']);
+    gulp.watch('./css/*', ['_headerFooterGenerator']);
 });
-
-
-// gulp.task('copyJson', function () {
-//    gulp.src('./_source/*.json')
-//        .pipe(gulp.dest('./_html/'))
-//});
 
 
 gulp.task('_makeLegacyFiles', function () {
@@ -116,70 +105,6 @@ gulp.task('_makeLegacyFiles', function () {
 });
 
 
-gulp.task('inSequenceExample', function (done) {
-    runSequence('liveServer', 'watch', done);
-});
-
-
-gulp.task('buildHeadersThenRsync', function (done) {
-    runSequence('headerFooterGan', ['syncHtmlDir', 'liveServer'], done);
-});
-
-
-gulp.task('watch', function () {
-    return;
-    //////// disabled watch
-    console.log('watching source files');
-    gulp.watch('./index.html', ['headerFooterGan']);
-    gulp.watch('./_html/*.html', ['headerFooterGan']);
-    gulp.watch('./css/*', ['headerFooterGan']);
-});
-
-
-gulp.task('watchHTML', function () {
-    console.log('watching source files');
-    gulp.watch('./index.html', ['headerFooterGan']);
-    gulp.watch('./_html/*.html', ['headerFooterGan']);
-    gulp.watch('./css/*', ['headerFooterGan']);
-});
-
-
-gulp.task('exampleBatMultiple', function () {
-    setTimeout(function () {
-        return gulp.src('*.js', {read: false})
-            .pipe(shell([
-                'syncer.bat'
-            ]));
-    }, 200);
-});
-
-
-gulp.task('testRsync', function () {
-    gulp.src('./_source/*.html')
-        .pipe(rsync({
-            options: {
-                chmod: 'ugo=rwX',
-                'r': true,
-                'v': true,
-                'e': 'ssh',
-                'delete': true,
-                'verbose': true,
-                'progress': true
-            },
-            username: 'root',
-            root: '_source/',
-            hostname: 'some_domain.com',
-            destination: '/tmp',
-            recursive: true
-        }));
-});
-
-
-gulp.task('syncHtmlDir', shell.task([
-    'syncer.bat'
-]));
-
-
 function reload() {
     if (1) {
         return browserSync.reload({
@@ -194,3 +119,77 @@ function handleError(err) {
     console.log(err.toString());
     this.emit('end');
 }
+
+/*
+
+ gulp.task('inSequenceExample', function (done) {
+ runSequence('liveServer', 'watch', done);
+ });
+
+
+ gulp.task('buildHeadersThenRsync', function (done) {
+ runSequence('headerFooterGan', ['syncHtmlDir', 'liveServer'], done);
+ });
+
+
+ gulp.task('watch', function () {
+ console.log('watching source files');
+ gulp.watch('./index.html', ['headerFooterGan']);
+ gulp.watch('./_html/*.html', ['headerFooterGan']);
+ gulp.watch('./css/*', ['headerFooterGan']);
+ });
+
+
+
+ gulp.task('exampleBatMultiple', function () {
+ setTimeout(function () {
+ return gulp.src('*.js', {read: false})
+ .pipe(shell([
+ 'syncer.bat'
+ ]));
+ }, 200);
+ });
+
+
+ gulp.task('testRsync', function () {
+ gulp.src('./_source/*.html')
+ .pipe(rsync({
+ options: {
+ chmod: 'ugo=rwX',
+ 'r': true,
+ 'v': true,
+ 'e': 'ssh',
+ 'delete': true,
+ 'verbose': true,
+ 'progress': true
+ },
+ username: 'root',
+ root: '_source/',
+ hostname: 'some_domain.com',
+ destination: '/tmp',
+ recursive: true
+ }));
+ });
+
+
+ gulp.task('syncHtmlDir', shell.task([
+ 'syncer.bat'
+ ]));
+
+ gulp.task('gulpLocalTranslate', function () {
+ gulp.src('./_source/*.html')
+ .pipe(gulplocaltranslate('5')).on('error', handleError)
+ .pipe(gulp.dest('./_tmp/'))
+ .pipe(reload());
+ });
+
+ gulp.task('default', ['headerFooterGan'], function () {
+ });
+
+ gulp.task('copyJson', function () {
+ gulp.src('./_source/*.json')
+ .pipe(gulp.dest('./_html/'))
+ });
+
+ */
+
