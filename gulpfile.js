@@ -73,7 +73,7 @@ gulp.task('_headerFooterGenerator', function () {
 
 gulp.task('_minifyHTML', function () {
     var opts = {comments: true, spare: true};
-    var condition = '**/_html/signage_video.html';
+    var condition = ['**/_html/signage_video.html','**/_html/examples.html'];
     gulp.src('./_html/*.html')
         .pipe(gulpIgnore.exclude(condition))
         .pipe(minifyHTML(opts))
