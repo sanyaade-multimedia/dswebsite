@@ -23,7 +23,7 @@ var server;
 
 
 gulp.task('compile', function (done) {
-    runSequence('_makeLegacyFiles', '_headerFooterGenerator', '_minifyHTML', 'rsync', done);
+    runSequence('_makeLegacyFiles', '_headerFooterGenerator', 'rsync', done);
 });
 
 gulp.task('headerFooterGenerator', function (done) {
