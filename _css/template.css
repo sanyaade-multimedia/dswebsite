@@ -296,7 +296,7 @@ section.get-banner-one p {
 }
 
 .get-step-two {
-    margin-top: 20px;
+    padding: 0;
 }
 
 section.about-top {
@@ -1313,4 +1313,41 @@ section.content .m_table p {
     position: relative;
     left: -10px;
     top: 2px
+}
+
+#getStarteArr1 {
+    position: relative;
+    top: -30px;
+    left: 180px;
+}
+
+#createAccText {
+    color: #008bb9;
+    margin-bottom: 130px;
+}
+
+.btnStartNow {
+    margin-top: 50px;
+    float: left;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 33px;
+    background: #008bb9;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
+
+.btnStartNow:hover {
+    background: #007095;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#chooseOs {
+    padding-left: 40px;
+    float: right;
+}
+
+#createAccButton {
+    margin-bottom: 20px;
 }
