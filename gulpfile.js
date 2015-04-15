@@ -8,6 +8,7 @@
 
 var gulp = require('gulp');
 var express = require('express');
+var wait = require('gulp-wait');
 var gutil = require('gulp-util');
 var headerfootergen = require('gulp-header-footer-gen');
 var browserSync = require('browser-sync');
@@ -19,17 +20,13 @@ var Rsync = require('rsync');
 var gulpIgnore = require('gulp-ignore');
 var convertEncoding = require('gulp-convert-encoding');
 var gulplocaltranslate = require('gulp-local-translate');
+var waitTime = 1500;
 var server;
 
 
 gulp.task('compile', function (done) {
-    runSequence('_makeLegacyFiles', '_headerFooterGenerator', 'rsync', done);
+    runSequence('_headerFooterGenerator', '_makeLegacyFiles', 'rsync', done);
 });
-
-gulp.task('headerFooterGenerator', function (done) {
-    runSequence('_makeLegacyFiles', '_headerFooterGenerator', done);
-});
-
 
 
 gulp.task('rsync', function () {
@@ -64,16 +61,19 @@ gulp.task('liveServer', ['_watchSource'], function () {
 });
 
 
-gulp.task('_headerFooterGenerator', function () {
+gulp.task('_headerFooterGenerator', function (done) {
     gulp.src('./_source/*.html')
         .pipe(headerfootergen('./index.html')).on('error', handleError)
-        .pipe(gulp.dest('./_html/'))
-        .pipe(reload())
+        .pipe(gulp.dest('./_html/'));
+    setTimeout(function () {
+        done()
+    }, waitTime);
+
 });
 
 gulp.task('_minifyHTML', function () {
     var opts = {comments: true, spare: true};
-    var condition = ['**/_html/signage_video.html','**/_html/examples.html'];
+    var condition = ['**/_html/signage_video.html', '**/_html/examples.html'];
     gulp.src('./_html/*.html')
         .pipe(gulpIgnore.exclude(condition))
         .pipe(minifyHTML(opts))
@@ -88,7 +88,7 @@ gulp.task('_watchSource', function () {
 });
 
 
-gulp.task('_makeLegacyFiles', function () {
+gulp.task('_makeLegacyFiles', function (done) {
     var d = './_html/';
     fs.createReadStream(d + 'mediaserver.html').pipe(fs.createWriteStream(d + 'signage_server.html'));
     fs.createReadStream(d + 'signage_video.html').pipe(fs.createWriteStream(d + 'reseller_video.html'));
@@ -114,6 +114,9 @@ gulp.task('_makeLegacyFiles', function () {
     fs.createReadStream(d + 'cloud_vs_server.html').pipe(fs.createWriteStream(d + 'free_digital_signage.html'));
     fs.createReadStream(d + 'content_creation.html').pipe(fs.createWriteStream(d + 'content.html'));
     fs.createReadStream(d + 'about.html').pipe(fs.createWriteStream(d + 'about_us.html'));
+    setTimeout(function () {
+        done()
+    }, waitTime);
 
 });
 
