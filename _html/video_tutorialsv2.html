@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>open source Digital Signage </title>
+	<title>Digital Signage video tutorials </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -182,209 +182,108 @@
 <!-- HEADER_END -->
 
 <!-- MAIN_CONTENT_START -->
-<!-- TITLE_NAME: open source Digital Signage -->
-<section class="media_har">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="../_images/devBanner.png" class="m_image">
-            </div>
-        </div>
-    </div>
-</section>
+<!-- TITLE_NAME: Digital Signage video tutorials -->
 
 <section class="content">
     <div class="container">
+
         <div class="row">
+
+
             <div class="col-md-12">
 
-                <!--<p>With the MediaSignage open source Digital Signage platform you get full transparency into the underline development environment as well as the ability to customize the platform and truly make it your own.</p>
-                <p>The MediaSignage open source platform consists of 3 components,  including the mediaSERVER+, SignageStudio Lite and SignagePlayer.<br />
-                  Each open source component is available under its own license  terms and designed with different objectives in mind. </p>-->
-            </div>
 
-            <div class="col-md-4 text-center">
-                <img src="../_images/devstudio.png"/>
-                <h6>Open source SignageStudio Lite</h6>
-            </div>
-            <div class="col-md-4 text-center">
-                <img src="../_images/devplayer.png"/>
-                <h6>Open source SignagePlayer</h6>
-            </div>
-            <div class="col-md-4 text-center">
-                <img src="../_images/devserver.png"/>
-                <h6>Open source mediaSERVER+</h6>
-            </div>
+                <script data-main="/videoTutorials/init" src="/videoTutorials/_common/_js/requirejs/require.js" type="text/javascript"></script>
+                <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+                <link href="/videoTutorials/_common/_js/video/video-js.css" rel="stylesheet">
+                <link rel="stylesheet" href="http://www.digitalsignage.com/tmp/tree/dist/themes/default/style.min.css"/>
+                <link rel="stylesheet" href="http://www.digitalsignage.com/tmp/tree/dist/themes/default-dark/style.css"/>
 
-            <div class="col-md-12">
-                <article>
-                    <p>DigitalSignage.com, the first open digital signage software platform that transforms any display into a two-way communication screen, allowing any developer or business to create and integrate fully customizable apps to run on their own network of public displays without cost or commitment. We provides sample apps such as Digg, Social and Web Apps that anyone can fork on Github and modify to accommodate for their own business logic and needs. Our API includes Player resource access, offline caching framework and can be developed using any JavaScript library you like including jQuery, Backbone and Angular. </p>
-                    <p>What sets DigitalSignage.com apart, and what none of our competitors offer, is that we intentionally built an open platform. Other digital signage options try to build functionality for every use case. We provide the tools to customize and build for individual business needs. By operating as an open platform, DigitalSignage.com can focus less on app development and more on creating an awesome platform for others to build on.</p>
-                    <p>We provide an open SDK so that developers only have to think about the app's functionality — not about delivering and updating it for multiple devices. Best of all, a developer can host their own App anywhere online and allow access to the Signage App both while developing as well as when releasing their final product, simply by pointing a link to a web hosted json configuration file. </p>
-                    <p>Independent developers can create apps with the potential to gain exposure on public displays through thousands of screens across the world. You can even integrate existing apps into real-time customer engagement tools and promote services, without the hassle of handling all the complexities related to the set-up and configuration process.</p>
-                    <p>Our open source Digital Signage platform is truly a game changer, it’s all free, easy to use and delivers on the type of business logic your organization requires.</p>
+                <style>
+
+                    .jstree-search {
+                        color: red !important;;
+                    }
+
+                    .btnVideo {
+                        font-family: Arial;
+                        color: #ffffff;
+                        font-size: 13px;
+                        background: #292929;
+                        border: solid 1px #212121;
+                        padding: 5px 12px 5px 12px;
+                        margin: 0;
+                        text-decoration: none;
+                    }
+
+                    .btnVideo:hover {
+                        background: #545454;
+                        text-decoration: none;
+                    }
+
+                    .btnVideo:last-child {
+                        border-right: solid 1px #545454;
+                    }
+
+                    .videoMouseHover:hover {
+                        color: white !important;
+                        cursor: pointer;
+                    }
+
+                    #recentViewsContainer {
+                        margin: 20px;
+                        overflow-y: auto;
+                        height: 440px;
+                    }
+
+                    #recentViews li {
+                        cursor: pointer;
+                        padding: 10px;
+                        width: 90%;
+                        border-bottom: 1px gray dashed;
+                    }
+
+                    #recentViews li:hover {
+                        color: white;
+                    }
+
+                </style>
 
 
-                </article>
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">SignageStudio Lite</h2>
+                <img src="../_images/close_video.png" style="display: none;cursor: pointer; float: right; position: relative; top: 0px; left: -170px; z-index: 9999999" id="exitVideo"/>
 
-                    <P><a href="http://lite.digitalsignage.com" class="text-primary">SignageStudio Lite</a> is an HTML5 / JavaScript project available under the GPL V3 open license. It is 100% open source and can be forked directly on GitHub. Developers are welcome to create a fully customized SignageStudio Lite and are encouraged to share their code base to promote community development around the product. </P>
+                <div id="videoContainer" style="border: 2px solid black; margin-top: 20px; margin-bottom: 30px; height:585px; width: 960px;background:#333">
+                    <div id="videoPlayerContainer" style="display: none">
+                        <video id="videoIntro" style="position: relative; top: -6px" class="centerElement vjs-big-play-centered video-js vjs-default-skin" controls preload="auto" poster="videoIntro.png" data-setup='{ "playbackRates": [0.5, 1, 1.2, 1.4, 1.8, 2] }'></video>
+                    </div>
+                    <div class="hideOnPlay">
+                        <button id="expandAll" class="btnVideo">expand all</button>
+                        <button id="collapseAll" class="btnVideo">collapse all</button>
+                        <input id="searchTree" class="btnVideo" value="search" style="width: 215px; color: #616161"/>
+                    </div>
+                    <div class="hideOnPlay" style="width: 560px; height: 550px; float: right; color: #c6c6c6">
+                        <div id="historyView" style="width: 100%; height: 100%; display: none">
+                            <h1 style="margin-left: 20px">your recent views:</h1>
 
-                    <P>SignageStudio Lite is infused with a Helper SDK named Pepper (aka Jalapeno SDK). Pepper / Jalapeno SDK serves as the building block for SignageStudio Lite as it provides a low level API that handles authentication, mediaSERVER communication and application Model. While the Pepper SDK is an integral part of SignageStudio Lite, it can also be used as a standalone library and loaded into other applications as well.<br/>
-                    </P>
+                            <div id="recentViewsContainer" style="padding: 20px">
+                                <ul id="recentViews">
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="startHereView" style="width: 100%; height: 100%; display: none; padding: 20px">
+                            <i style="display: inline;font-size: 4em; color: #606060" class="fa fa-graduation-cap"></i>
 
-                    <P>Source: Public<br/>
-                        License: GPL V3<br/>
-                        Technologies: HTML5 / jQuery / Bootstrap / Backbone<br/>
-                        Docs: <a href="http://www.digitalsignage.com/msdocs/" class="text-primary">Maintained</a><br/>
-                        Support: <a href="http://script.digitalsignage.com/forum/index.php/board,9.0.html" class="text-primary">Community</a></P>
-
-                    <p><a href="http://lite.digitalsignage.com" class="btn btn-default">Learn more</a> <a href="http://www.digitalsignage.com/msdocs/" class="btn btn-default">Documentation</a> <a href="http://git.digitalsignage.com" class="btn btn-default">
-                        <i class="gitHubButton fa fa-github"></i>
-                        Fork it on GitHub
-                    </a></p>
-                </article>
-
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">HTML StudioPro and SignagePlayer development</h2>
-
-                    <P>With the Digital Signage software development kit, anyone can develop a fully custom Digital Signage component for both the SignagePlayer as well as for StudioPro (Windows / Mac / Android).</P>
-
-                    <P>Best of all, the entire software development kit is built on top of JavaScript, HTML and CSS; the world`s most popular development platform. What this means for you is that you can easily hire an experienced and inexpensive web developer to produce a solution that`s right for your business logic.</P>
-
-                    <P>And, because we provide all of the tutorials for our SDK, you can simply point your developer at our help guides so they can produce, test and deliver a solution to fulfill your specific requirements; in a matter of days!</P>
-
-                    <p>
-                        <a href="../_html/video_tutorials.html?videoNumber=htmlSdkIntro" class="btn btn-default">Video (part 1):</a>
-                        <a href="../_html/video_tutorials.html?videoNumber=htmlSdkAPI" class="btn btn-default">Video (part 2):</a>
-                        <a href="../_html/video_tutorials.html?videoNumber=htmlSdkDebug" class="btn btn-default">Video (part 3):</a>
-                    </p>
-                </article>
-
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">HTML Component: Digg</h2>
-
-                    <P>The component enables to load up the latest Digg.com posts. Powered by bootstrap and using responsive design, the digg posts will be repositioned to automatically occupy the full width of the scene or screen division assigned. Choose scroll speed and background color through the StudioPro properties page. Also, the component (through the embedded HTML wrapper or Node web kit wrapper) takes advantage of local caching so it can continue and work offline with no interruption to your audience. Anyone can modify this Digital Signage component that consists of both a SignagePlayer HTML / CSS / Javascript module as well as StudioPro properties page HTML / CSS / Javascript module, for the free SignagePlayer from http://digitalsignage.com.</P>
-
-                    <P>Source: Public<br/>
-                        License: GPL V3<br/>
-                        Technologies: HTML5 / jQuery / Bootstrap / Backbone<br/>
-
-                    <p><a href="https://github.com/born2net/componentDigg" class="btn btn-default">
-                    <i class="gitHubButton fa fa-github"></i>
-                    Fork it on GitHub</a></p>
-
-                </article>
-
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">HTML Component: Sample</h2>
-
-                    <P>The component enables anyone to develop a custom Digital Signage component that consists of both a SignagePlayer HTML / CSS / Javascript module as well as StudioPro properties page HTML / CSS / Javascript module, for the free SignagePlayer from http://digitalsignage.com.</P>
-
-                    <P>Source: Public<br/>
-                        License: GPL V3<br/>
-                        Technologies: HTML5 / jQuery / Bootstrap / Backbone<br/>
-                    </P>
-
-                    <p><a href="https://github.com/born2net/componentSample" class="btn btn-default">
-                        <i class="gitHubButton fa fa-github"></i>
-                        Fork it on GitHub</a></p>
-
-                </article>
-
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">HTML Component: Browser</h2>
-
-                    <P>The component enables to load up web pages inside the embedded HTML module or external Node web kit application (windows only). Choose between a list of web page URLs to cycle through and set a refresh timer in seconds. Anyone can modify this Digital Signage component that consists of both a SignagePlayer HTML / CSS / Javascript module as well as StudioPro properties page HTML / CSS / Javascript module, for the free SignagePlayer from http://digitalsignage.com.</P>
-
-                    <P>Source: Public<br/>
-                        License: GPL V3<br/>
-                        Technologies: HTML5 / jQuery / Bootstrap / Backbone<br/>
-                    </P>
-
-                    <p><a href="https://github.com/born2net/componentBrowser" class="btn btn-default">
-                        <i class="gitHubButton fa fa-github"></i>
-                        Fork it on GitHub</a></p>
-
-                </article>
-
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">HTML Account Wizard</h2>
-
-                    <P>Enterprise / Resellers can have full control on how new users open and manage accounts on their own web site. The "GetStarted" wizard allows any JavaScript developer to change Studio, Template and Player selections during account creation as well as completely modify the create and open account process.</P>
-
-                    <p>Features include:</p>
-                    <ul>
-                        <li>Studio Selection (Lite / Pro)</li>
-                        <li>Player Installer (air/flash/html/direct download)</li>
-                        <li>Create account</li>
-                        <li>Change user password</li>
-                        <li>Change business name</li>
-                        <li>Forgot password</li>
-                        <li>User authentication</li>
-                        <li>Bootstrap Progressive layout</li>
-                        <li>Developed with Backbone.js</li>
-                    </ul>
-
-                    <P>Source: Public<br/>
-                        License: GPL V3<br/>
-                        Technologies: HTML5 / jQuery / Bootstrap / Backbone<br/>
-                    </P>
-
-                    <p><a href="https://github.com/born2net/msgetstarted" class="btn btn-default">
-                        <i class="gitHubButton fa fa-github"></i>
-                        Fork it on GitHub</a></p>
-
-                </article>
-
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">SignagePlayer</h2>
-
-                    <p><a href="../_html/signageplayer.html" class="text-primary">SignagePlayer</a> is an AS3 based Digital Signage Player that is the work horse behind the MediaSignage platform. It delivers first class Digital Signage presentations across operating systems including Windows, Android, iOS, Linux, Mac OSX and the Web. <br/>
-                        The SignagePlayer full source code is available on GitHub on the git hub repository.<br/>
-                        The SignagePlayer full source code is available on GitHub on the git hub repository.</p>
-
-                    <p>The SignagePlayer license conforms to GPL V3 modified, therefore entitles the forking of the entire project and developing a custom SignagePlayer including, but not limited to, branding and compiling to specific native platforms (i.e.: Android, iOS etc). The SignagePlayer modified GPL V3 license restricts the usage of the open source code, as it only allows the code base to be deployed in a project that its purpose is to connect the final compiled SignagePlayer to the public mediaCLOUD, private mediaSERVER or a mediaHYBRID. Thus, ensuring that the intention of the developed source code, is to produce a product that will ultimately connect into any of the MediaSignage server environments.<br/>
-                    </p>
-
-                    <p>Source: Public<br/>
-                        License: GPL V3 modified <br/>
-                        Technologies: ActionScript 3 / Stage3D GPU / HTML5 <br/>
-                        Docs: N/A<br/>
-                        Support: <a href="http://script.digitalsignage.com/forum/index.php/board,9.0.html" class="text-primary">Community</a></p>
-
-                    <p><a href="../_html/signageplayer.html" class="btn btn-default">Learn more</a> <a href="https://github.com/born2net/signageplayer-core" class="btn btn-default">
-                        <i class="gitHubButton fa fa-github"></i>
-                        Fork it on GitHub</a></p>
-
-                </article>
-
-                <article>
-                    <hr>
-                    <h2 style="padding-top:20px;">mediaSERVER+</h2>
-
-                    <p>The mediaSERVER+ can be purchased as a private mediaSERVER or leased. The mediaSERVER+ is an identical product as the standard mediaSERVER versions, with one important difference, the Microsoft C# source code is exposed and entirely editable; compared to non-plus versions where the code is obfuscated. The mediaSERVER+ adds transparency which is often required by Government agencies and large Companies, and provide the confidence level administrators often need in order to adopt 3rd party server solutions.. The mediaSERVER+ is an identical product as the standard mediaSERVER versions, with one important difference, the Microsoft C# source code is exposed and entirely editable; compared to non-plus versions where the code is obfuscated. The mediaSERVER+ adds transparency which is often required by Government agencies and large Companies, and provide the confidence level administrators often need in order to adopt 3rd party server solutions.</p>
-
-                    <p>The mediaSERVER+ (private and hybrid) are available under a private license agreement which must be notarized by the buyer and submitted for approval to MediaSignage. Be sure to <a href="http://www.digitalsignage.com/cgi-bin/submit.cgi" class="text-primary">contact</a> MediaSignage representatives for pricing and availability on mediaSERVER+ products.<br/>
-
-                    </p>
-
-                    <p>Source: Available on purchase<br/>
-                        License: Private<br/>
-                        Technologies: C# / PostgreSQL database<br/>
-                        Docs: N/A<br/>
-                        Support: <a href="http://script.digitalsignage.com/forum/index.php/board,9.0.html" class="text-primary">Community</a></p>
-
-                    <p><a href="../_html/mediaserver.html" class="btn btn-default">Learn more</a> <a href="http://www.digitalsignage.com/cgi-bin/submit.cgi" class="btn btn-default">Pricing info</a></p>
-                </article>
+                            <p style="display: inline; color: white; font-size: 3em">online video tutorials</p>
+                            <i id="videoPlayBegin" style="margin-top: 10px;font-size: 90px; padding-left: 200px; padding-top: 100px; color: #c7c7c7" class="fa videoMouseHover fa-play-circle"></i>
+                            <h4 style="color: #eaeaea; padding-left: 100px">not sure how to start? click play</h4>
+                        </div>
+                        <div id="videoDetailsView" style="width: 100%; height: 100%; display: none">
+                        </div>
+                    </div>
+                    <div id="videoTree" class="demo hideOnPlay" style="overflow-y: auto; height:552px; border: solid 1px #5d5d5d; width: 396px; margin: 0 !important;">
+                    </div>
+                    <i id="videoPlayHistory" style="float: right;font-size: 1.5em;position: relative; top: -580px; left: -10px; color: #959595" class="hideOnPlay videoMouseHover fa fa-history"></i>
+                </div>
 
 
             </div>

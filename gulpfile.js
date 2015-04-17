@@ -93,6 +93,7 @@ gulp.task('_makeLegacyFiles', function (done) {
     fs.createReadStream(d + 'mediaserver.html').pipe(fs.createWriteStream(d + 'signage_server.html'));
     fs.createReadStream(d + 'signage_video.html').pipe(fs.createWriteStream(d + 'reseller_video.html'));
     fs.createReadStream(d + 'signage_video.html').pipe(fs.createWriteStream(d + '_video_tutorials.html'));
+    fs.createReadStream(d + 'signage_video.html').pipe(fs.createWriteStream(d + 'video_tutorialsv2.html'));
     fs.createReadStream(d + 'signage_video.html').pipe(fs.createWriteStream(d + 'video_tutorials.html'));
     fs.createReadStream(d + 'info_graphics.html').pipe(fs.createWriteStream(d + 'signage.html'));
     fs.createReadStream(d + 'mediaplayer.html').pipe(fs.createWriteStream(d + 'models.html'));
