@@ -20,7 +20,7 @@ var Rsync = require('rsync');
 var gulpIgnore = require('gulp-ignore');
 var convertEncoding = require('gulp-convert-encoding');
 var gulplocaltranslate = require('gulp-local-translate');
-var waitTime = 1500;
+var waitTime = 2500;
 var server;
 
 

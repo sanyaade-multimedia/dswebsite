@@ -1370,3 +1370,183 @@ section.content .m_table p {
 }
 
 
+
+/* --- Plans ---------------------------- */
+
+.my_planHeader {
+    text-align: center;
+    color: white;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+}
+.my_planTitle {
+    font-size:22px;
+    padding:20px 0px;
+    font-weight: bold;
+}
+@media only screen and (min-width:295px) and (max-width:480px) {
+    .my_planTitle {
+        font-size:11px !important;
+        padding:10px 0px !important;
+    }
+    .my_plan1s {
+        min-height: 132px !important;
+    }
+    .my_plan2s {
+        min-height: 132px !important;
+    }
+    .my_plan3s {
+        min-height: 132px !important;
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width:1023px) {
+    .my_featureRow p {
+        font-size: 14px !important;
+    }
+    .my_plan1s {
+        min-height: 132px !important;
+    }
+    .my_plan2s {
+        min-height: 132px !important;
+    }
+    .my_plan3s {
+        min-height: 132px !important;
+    }
+    .my_plan1t{
+        height: 105px;
+    }
+}
+.my_planPrice {
+    font-size:1.4em;
+    font-weight: bold;
+}
+.my_planDuration {
+    margin-top: -0.6em;
+}
+.my_featureRow h3{ font-size:21px; padding-top:10px; line-height:24px}
+.my_featureRow p{ font-size: 14px !important;
+    /* line-height: 20px; */
+    margin-top: -22px !important;}
+.my_plan1last {
+    background: rgb(95, 135, 224);
+    min-height: 50px;
+    padding-top:20px;
+    font-size:20px !important;
+    color:#FFF;
+}
+.my_plan2last {
+    background: rgb(255, 0, 0);
+    min-height: 50px;
+    padding-top:20px;
+    font-size:20px !important;
+    color:#FFF;
+}
+.my_plan3last {
+    background: rgb(225, 125, 28);
+    min-height: 50px;
+    padding-top:20px;
+    font-size:20px !important;
+    color:#FFF;
+}
+.my_featureRow h4{ font-size:21px; padding-top:10px;}
+@media (max-width: 768px) {
+    .my_planTitle {
+        font-size:small;
+    }
+}
+
+/* --- Features ------------------------- */
+
+.my_feature {
+    line-height:2.8em;
+}
+
+@media (max-width: 768px) {
+    .my_feature {
+        text-align: center
+    }
+}
+
+.my_featureRow {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    border: 0.1em solid rgb(213, 213, 213);
+}
+
+/* --- Plan 1 --------------------------- */
+.my_plan1 {
+    background: rgb(199, 230, 255);
+    min-height: 73px;
+}
+
+.my_planHeader.my_plan1 a {
+    /* background: rgb(72, 109, 139); */
+    color: white;
+    line-height: normal;
+}
+
+.my_planHeader.my_plan1 {
+    background: rgb(95, 135, 224);
+    border-bottom: thick solid rgb(7, 78, 104);
+}
+
+/* --- Plan 2 --------------------------- */
+.my_plan2 {
+    background: rgb(250, 208, 208);
+    min-height: 73px;
+}
+
+.my_planHeader.my_plan2 a {
+    /* background: rgb(72, 109, 139); */
+    color: white;
+    line-height: normal;
+}
+
+.my_planHeader.my_plan2 {
+    background: rgb(255, 0, 0);
+    border-bottom: thick solid rgb(150, 1, 1);
+}
+
+/* --- Plan 3 --------------------------- */
+.my_plan3 {
+    background: rgb(255, 231, 208);
+    min-height: 73px;
+}
+
+.my_planHeader.my_plan3 a {
+    /* background: rgb(72, 109, 139); */
+    color: white;
+    line-height: normal;
+}
+
+.my_planHeader.my_plan3 {
+    background: rgb(225, 125, 28);
+    border-bottom: thick solid rgb(165, 82, 2);
+}
+
+
+
+
+.my_planFeature {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 5px;
+}
+
+.my_planFeature i.my_check {
+    color: green;
+}
+
+
+.styleOne {
+    border: 2px !important;
+    border-top: 2px solid gray !important;
+    height: 2px !important;;
+    background: #333 !important;;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc) !important;;
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc) !important;;
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc) !important;;
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc) !important;;
+}
