@@ -1380,10 +1380,33 @@ section.content .m_table p {
     padding-bottom:0.2em;
 }
 .my_planTitle {
-    font-size:22px;
+    font-size:18px;
     padding:20px 0px;
-    font-weight: bold;
+    font-weight: normal;
+    transition: text-shadow 0.4s;
+    transition: all .2s ease-in-out;
 }
+
+.my_planTitle:hover {
+    text-shadow: 7px 7px 2px rgb(30, 30, 30);
+    transform: scale(1.1);
+}
+
+.arrwIcon {
+    font-size: 2em;
+    position: relative;
+    left: -7px;
+    top: 5px;
+}
+
+.osIcon {
+    font-size: 2em;
+    color: green;;
+    position: relative;
+    top: 4px;
+    left: -4px;
+}
+
 @media only screen and (min-width:295px) and (max-width:480px) {
     .my_planTitle {
         font-size:11px !important;
