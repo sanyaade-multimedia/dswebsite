@@ -1,8 +1,6 @@
 /************************RESPONSIVE STYLES******************************/
 /*---------------------------------------------------------------------*
 //* Build Date: 13 Feb 2015*/
-/*  Author: Inceptive*/
-/*  URL: http://www.inceptivebd.com */
 /*---------------------------------------------------------------------*/
 
 /* ---------- MAX 1500PX ---------- */
@@ -37,31 +35,34 @@
 /* ---------- MAX 1024PX ---------- */
 @media screen and (max-width:1024px) {
 
-.list_carousel ul{width:100% !important;}
-.list_carousel_content li{
-	width:100%;
-}
-ul.home-social li{
-	padding-left:6px;
-}
-img.m_image{
-	width:100%;
-}
-.rsg h1{
-	font-size:40px;
-}
-.rsg h1 sup {
-  font-size: 25px;
-  margin-left: -8px;
-}
-.rsg h1 span.r-flat{
-	font-size:12px;
-	margin-right:5px;
-}
-.pricing-table-features{
-	  margin: 10px 0px 0 0px;
-	  width: 280px;
-}
+	.list_carousel ul{width:100% !important;}
+	.list_carousel_content li{
+		width:100%;
+	}
+	ul.home-social li{
+		padding-left:6px;
+	}
+	img.m_image{
+		width:100%;
+	}
+	.rsg h1{
+		font-size:40px;
+	}
+	.rsg h1 sup {
+	  font-size: 25px;
+	  margin-left: -8px;
+	}
+	.rsg h1 span.r-flat{
+		font-size:12px;
+		margin-right:5px;
+	}
+	.pricing-table-features{
+		  margin: 10px 0px 0 0px;
+		  width: 280px;
+	}
+	.topPaddingExtra {
+		padding-top: 100px;
+	}
 }
 
 /* ---------- MAX 991PX ---------- */
