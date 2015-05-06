@@ -65,7 +65,7 @@ Download it, upload it to resources, and run it in full screen mode to check the
 			<Answer data="Most of the pre-made scenes in the SignageStudio were created for a resolution of 1920x1080. For a perfect fit, scale down the imported scenes to 1280x720. Be sure to move the resources around the scene to position everything according to the new resolution."/>
 		</Question>
 		<Question data="How much storage is available on the mediaDROID?">
-			<Answer data="The mediaDROID has a total of 4GB, 2.5GB of that can be used for local campaign caching. It is powered by an intelligent caching mechanism that will remove unnecessary files, so it can accommodate best caching techniques for the current running campaign."/>
+			<Answer data="The mediaDROID comes in two flavors, 4GB and 32GB for internal local campaign caching. It is powered by an intelligent caching mechanism that will remove unnecessary files, so it can accommodate best caching techniques for the current running campaign."/>
 		</Question>
 		<Question data="Does the mediaDROID support landscape and portrait modes?">
 			<Answer data="The mediaDROID ZXh only supports landscape mode (aka horizontal mode) and the mediaDROID ZXv only supports portrait mode (aka vertical mode). You don't need any special screen; simply tilt any HDMI screen to view in proper orientation per device ordered. Create the presentation at 1280x720 and the device will take care of rotating the presentation for you."/>
