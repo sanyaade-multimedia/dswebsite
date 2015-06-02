@@ -178,7 +178,11 @@
 
 
 <!-- MAIN_CONTENT_START -->
-<!-- TITLE_NAME: digital menu board -->
+<!-- TITLE_NAME: Digital Menu Board | Digital Food Menu Software -->
+
+<link rel="stylesheet" href="../_js/bjslider/bjqs.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../_js/bjslider/demo.css">
 
 <section class="content">
     <div class="container">
@@ -190,12 +194,40 @@
                 <h1 class="text-center" style="font-size: 4.5em">digital menu boards</h1>
                 <h4 class="text-center">make your digital menus standout and your customers hungry</h4>
 
+                <!--
                 <p class="text-center"> <img src="../_images/burgstandout.png" class="m_image1" ></p>
+                -->
+                <br/>
+                <br/>
+                <br/>
+                <div id="contentwider">
+                    <center>
+                        <div id="banner-fade">
+                            <ul class="bjqs">
+                                <li><img src="../_images/samples/sample_multi1.png"></li>
+                                <li><img src="../_images/samples/sample10.png"></li>
+                                <li><img src="../_images/samples/sample2.png"></li>
+                            </ul>
+                        </div>
+                    </center>
+                </div>
+                <script class="secret-source">
+                    $(document).ready(function ($) {
+
+                        $('#banner-fade').bjqs({
+                            showmarkers : false,
+                            width: 550,
+                            height: 310,
+                            showcontrols : false,
+                            responsive: true,
+                            automatic : true
+                        });
+                    });
+                </script>
 
             </div>
             <div class="col-md-12">
                 <article>
-                    <img src="../_images/coffeeboard.png"  class="img-right m_image2">
                     <h4 class="topPaddingExtra">Increase customer sales at the POS</h4>
                     <p>With our Digital Menu Boards you can increase your sales and improve your customer experience through dynamic digital food menu boards.
                         Digital Menu boards have been proven to increase average order value at the point of sale. You can raise the average order value, up- and cross-sell.

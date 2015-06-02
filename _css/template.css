@@ -1355,10 +1355,12 @@ section.content .m_table p {
 #banner-fade {
     position: relative;
     top: -20px;
+    /**
     border: 1px solid #969696;
     -webkit-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.33);
     box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.33);
+    **/
 }
 
 #contentwide {
