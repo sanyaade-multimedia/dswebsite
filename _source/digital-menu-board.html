@@ -553,7 +553,6 @@
 
 <script type="text/javascript">
     $(document).ready(function () {       
-        // Hides elements on scrolldown
         jQuery(window).scroll(function () {
             if (jQuery(window).scrollTop() > 0) {
                 $('#navigation').addClass("dnt3-t");
@@ -562,7 +561,6 @@
                 $('#navigation').removeClass("dnt3-t");
             }
         });       
-        // Hides Navigation on Industries pages when scrolled to subnav
         jQuery(window).scroll(function() {
             if(jQuery(window).scrollTop() > 370) {
                 $('#dnt-subnavbar').addClass("subnavbar-dnt");
