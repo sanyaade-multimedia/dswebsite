@@ -1685,6 +1685,13 @@ section.content .m_table p {
    min-height:370px;
    width:100%;
    }
+.background-dnt-Automotive{
+    background:url(../_images/Automotive-b.jpg);
+    background-position: center top;
+    background-size: cover;
+    min-height:370px;
+    width:100%;
+}
 .background-dnt-Transportation{ 
    background:url(../_images/Transportation-b.jpg);
    background-position: center top;
