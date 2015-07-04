@@ -20,14 +20,13 @@ var Rsync = require('rsync');
 var gulpIgnore = require('gulp-ignore');
 var convertEncoding = require('gulp-convert-encoding');
 var gulplocaltranslate = require('gulp-local-translate');
-var waitTime = 2500;
+var waitTime = 150;
 var server;
 
 
 gulp.task('compile', function (done) {
-    runSequence('_headerFooterGenerator', '_makeLegacyFiles', 'rsync', done);
+    runSequence('_headerFooterGenerator', '_wait', '_makeLegacyFiles', 'rsync', done);
 });
-
 
 gulp.task('rsync', function () {
     var rsync = Rsync.build({
@@ -50,7 +49,6 @@ gulp.task('rsync', function () {
     });
 });
 
-
 gulp.task('liveServer', ['_watchSource'], function () {
     server = express();
     server.use(express.static('C:/msweb/dswebsite/'));
@@ -69,6 +67,12 @@ gulp.task('_headerFooterGenerator', function (done) {
         done()
     }, waitTime);
 
+});
+
+gulp.task('_wait', function (done) {
+    setTimeout(function(){
+        done();
+    },3000);
 });
 
 gulp.task('_minifyHTML', function () {
