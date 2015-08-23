@@ -23,7 +23,6 @@ var gulplocaltranslate = require('gulp-local-translate');
 var waitTime = 150;
 var server;
 
-
 gulp.task('compile', function (done) {
     runSequence('_headerFooterGenerator', '_wait', '_makeLegacyFiles', 'rsync', done);
 });
