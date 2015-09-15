@@ -6,7 +6,6 @@
 document.createElement('video');
 document.createElement('audio');
 document.createElement('track');
-
 /**
  * Doubles as the main function for users to create a player instance and also
  * the main library object.
