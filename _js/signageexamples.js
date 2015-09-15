@@ -1,4 +1,4 @@
-var videoPlayer, videoIntro, data, buffer = '';
+var videoPlayer, videoIntro, data, products, buffer = '';
 
 var initVideo = function () {
     videojs('videoIntro').ready(function () {
@@ -54,10 +54,89 @@ var listenItemClick = function () {
     })
 };
 
+var importSceneModal = function (finalBuffer) {
+    var self = this;
+
+    var $progress, $status;
+    var supportsProgress;
+    var loadedImageCount, imageCount;
+
+    var $demo = $('#sceneImportWrapper');
+    var $container = $demo.find('#image-container');
+    $status = $demo.find('#status');
+    $progress = $demo.find('progress');
+
+    supportsProgress = $progress[0] &&
+            // IE does not support progress
+        $progress[0].toString().indexOf('Unknown') === -1;
+
+    function populateScenes() {
+        // add new images
+        // var items = getItems();
+        //console.log(items);
+        $container.prepend($(finalBuffer));
+        // use ImagesLoaded
+        $container.imagesLoaded()
+            .progress(onProgress)
+            .always(function () {
+                $status.css({opacity: 0});
+            })
+            .fail(function (e) {
+                //console.log('some fail ' + e)
+            })
+            .done(function () {
+                //console.log('completed...')
+            });
+        // reset progress counter
+        imageCount = $container.find('img').length;
+        resetProgress();
+        updateProgress(0);
+    }
+
+    // reset container
+    $('#reset').click(function () {
+        $container.empty();
+        self.m_counter = 0;
+    });
+
+    function resetProgress() {
+        $status.css({opacity: 1});
+        loadedImageCount = 0;
+        if (supportsProgress) {
+            $progress.attr('max', imageCount);
+        }
+    }
+
+    function updateProgress(value) {
+        if (supportsProgress) {
+            $progress.attr('value', value);
+        } else {
+            // if you don't support progress elem
+            $status.text(value + ' / ' + imageCount);
+        }
+    }
+
+    // triggered after each item is loaded
+    function onProgress(imgLoad, image) {
+        // change class if the image is loaded or broken
+        var $item = $(image.img).parent();
+        $item.removeClass('is-loading');
+        if (!image.isLoaded) {
+            $item.addClass('is-broken');
+        }
+        // update progress element
+        loadedImageCount++;
+        updateProgress(loadedImageCount);
+    }
+    populateScenes();
+
+};
+
 $(document).ready(function () {
 
     initData();
     videoIntro = $('#videoIntro');
+    products = $('#products');
     listenStopVideo();
 
     $('#list').click(function (event) {
@@ -78,7 +157,9 @@ $(document).ready(function () {
             buffer = buffer +
                 '<div class="item col-xs-4 col-lg-4" data-video="' + video + '" >' +
                 '<div class="thumbnail">' +
-                ' <img class="group list-group-image" src="/_images/signage_samples/' + video + '.png" alt=""/>' +
+                '<li class="is-loading">' +
+                '<img class="group list-group-image" src="/_images/signage_samples/' + video + '.png" alt=""/>' +
+                '</li>' +
                 '<div class="caption">' +
                 '<h4 class="group inner list-group-item-heading">' + title + '</h4>' +
                 '</div>' +
@@ -86,28 +167,14 @@ $(document).ready(function () {
                 '</div>';
         });
 
+        return buffer;
 
-        $('#products').append(buffer);
-        $('#products').imagesLoaded()
-            .always(function (instance) {
-                console.log('all images loaded');
-            })
-            .done(function (instance) {
-                console.log('all images successfully loaded');
-            })
-            .fail(function () {
-                console.log('all images loaded, at least one is broken');
-            })
-            .progress(function (instance, image) {
-                var result = image.isLoaded ? 'loaded' : 'broken';
-                console.log('image is ' + result + ' for ' + image.img.src);
-            });
 
-        listenItemClick();
     };
 
+    var finalBuffer = loadSamples();
+    importSceneModal(finalBuffer);
+    listenItemClick();
     initVideo();
-    loadSamples();
-
 
 });
