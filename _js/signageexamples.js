@@ -71,11 +71,7 @@ var importSceneModal = function (finalBuffer) {
         $progress[0].toString().indexOf('Unknown') === -1;
 
     function populateScenes() {
-        // add new images
-        // var items = getItems();
-        //console.log(items);
         $container.prepend($(finalBuffer));
-        // use ImagesLoaded
         $container.imagesLoaded()
             .progress(onProgress)
             .always(function () {
@@ -133,7 +129,6 @@ var importSceneModal = function (finalBuffer) {
 };
 
 $(document).ready(function () {
-
     initData();
     videoIntro = $('#videoIntro');
     products = $('#products');
@@ -166,10 +161,7 @@ $(document).ready(function () {
                 '</div>' +
                 '</div>';
         });
-
         return buffer;
-
-
     };
 
     var finalBuffer = loadSamples();
