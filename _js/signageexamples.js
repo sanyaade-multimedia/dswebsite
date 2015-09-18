@@ -287,7 +287,7 @@ $(document).ready(function () {
     var loadSamples = function () {
         $.each(data, function (businessID, item) {
             var name = item.split(',')[0];
-            var designed = item.split(',')[1] == 'lite' ? 'designed with StudioLite' : 'designed with StudioPro';
+            var designed = item.split(',')[1] == 'lite' ? 'created with StudioLite' : 'created with StudioPro';
             var namePath = cleanName(name);
             buffer = buffer +
                 '<div class="item col-xs-4 col-lg-4" data-video="' + namePath + '" >' +
