@@ -115,6 +115,7 @@ gulp.task('_makeLegacyFiles', function (done) {
     fs.createReadStream(d + 'get_started.html').pipe(fs.createWriteStream(d + 'free_narrowcast.html'));
     fs.createReadStream(d + 'get_started.html').pipe(fs.createWriteStream(d + 'digital_signage_saas.html'));
     fs.createReadStream(d + 'get_started.html').pipe(fs.createWriteStream(d + 'digital_out_of_home.html'));
+    fs.createReadStream(d + 'signage_examples.html').pipe(fs.createWriteStream(d + 'examples.html'));
     fs.createReadStream(d + 'cloud_vs_server.html').pipe(fs.createWriteStream(d + 'free_digital_signage.html'));
     fs.createReadStream(d + 'content_creation.html').pipe(fs.createWriteStream(d + 'content.html'));
     fs.createReadStream(d + 'content_creation.html').pipe(fs.createWriteStream(d + 'easy_start.html'));

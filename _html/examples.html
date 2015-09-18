@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Live Content Examples of Digital Signage in Action </title>
+    <title>Digital Signage Components | Smart Applications for Digital Signage Screens</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -189,50 +189,227 @@
 <!-- HEADER_END -->
 
 <!-- MAIN_CONTENT_START -->
-<!-- TITLE_NAME: Live Content Examples of Digital Signage in Action -->
+<!-- TITLE_NAME: Digital Signage Components | Smart Applications for Digital Signage Screens-->
+
+<link rel="stylesheet" href="../../_js/video-js/video-js.min.css">
+<script type="text/javascript" src="../../_js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="../../_js/signageexamples.js"></script>
+<script type="text/javascript" src="../../_js/video-js/video.dev.js"></script>
 
 <style>
-    .space_top_100px {
+    .glyphicon {
+        margin-right: 5px;
+    }
+
+    .thumbnail {
+        margin-bottom: 20px;
+        padding: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+    }
+
+    .item.list-group-item {
+        float: none;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .item.list-group-item:nth-of-type(odd):hover, .item.list-group-item:hover {
+        background: #428bca;
+    }
+
+    .item.list-group-item .list-group-image {
+        margin-right: 10px;
+    }
+
+    .item.list-group-item .thumbnail {
+        margin-bottom: 0px;
+    }
+
+    .item.list-group-item .caption {
+        padding: 9px 9px 0px 9px;
+    }
+
+    .item.list-group-item:nth-of-type(odd) {
+        background: #eeeeee;
+    }
+
+    .item.list-group-item:before, .item.list-group-item:after {
+        display: table;
+        content: " ";
+    }
+
+    .item.list-group-item img {
+        float: left;
+    }
+
+    .item.list-group-item:after {
+        clear: both;
+    }
+
+    .list-group-item-text {
+        margin: 0 0 11px;
+    }
+
+    #videoModal .modal-dialog {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 0 !important;
         background-color: black !important;
     }
+
+    #videoModal .modal-content {
+        height: 100% !important;
+        border-radius: 0 !important;
+        background-color: black;
+    }
+
+    .item {
+        cursor: pointer;
+        border: 1px #d4d4d4 dashed;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* image loaded */
+
+
+    .imgLoaderList li {
+        min-width: 140px;
+        display: block;
+        float: left;
+        list-style: none;
+        margin: 0 5px 5px 0;
+        background-color: black;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .imgLoaderList li img,#status {
+        -webkit-transition: opacity 0.4s;
+        -moz-transition: opacity 0.4s;
+        -ms-transition: opacity 0.4s;
+        transition: opacity 0.4s;
+    }
+
+    .imgLoaderList li.is-loading {
+        background-color: black;
+        background-image: url('../_images/loading.gif');
+    }
+
+    .imgLoaderList li.is-broken {
+        background-image: url('../_images/broken.png');
+        background-color: #be3730;
+        width: 140px;
+    }
+
+    .imgLoaderList li.is-loading img, li.is-broken img {
+        opacity: 0;
+    }
+
+    .imgLoaderList .buttons { margin-bottom: 1.0em; }
+
+    .imgLoaderList button {
+        font-size: 18px;
+        padding: 0.4em 0.8em;
+        font-family: sans-serif;
+    }
+
+    .imgLoaderList #status {
+        opacity: 0;
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        background: hsla( 0, 0%, 0%, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 2; /* over other stuff */
+    }
+
+
+
+
 </style>
 
-<section>
-	<div class="container-fluid">
-		<div class="row" style="background-color: black">
-        
-         
-			 <div class="col-md-12">
-           
-					   <script type="text/javascript">
-                $(document).ready(function(e) {
-            
-                    if(!FlashDetect.installed){
-                        alert('This page requires Adobe Flash. Get it from http://get.adobe.com/flashplayer/');
-                        return
-                    }
-            
-                    if(FlashDetect.major<10){
-                        alert('This page requires a newer version of Adobe Flash. Get it from http://get.adobe.com/flashplayer/');
-                        return
-                    }
-            
-                });
-            
-            </script>
-            <div id="Logo">
-                <P>:1001:</P>
+<section class="content background-dt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../_images/examplesbanner.png" class="img-responsive" alt="">
             </div>
-            <script type="text/javascript" src="http://www.dynawebs.net/swfobject.js"></script>
-            <script type="text/javascript">
-                var flashvars = {}, params = {wmode:"direct", bgcolor:"000000"}, attributes = {};
-                swfobject.embedSWF("http://www.dynawebs.net/html/swf/mediasignage/HardwareAccelWeb.swf", "Logo", "100%", "580" , "11.3.0", "http://dynawebs.net/html/swf/hhPortal/expressInstall.swf", flashvars, params, attributes );
-            </script>
-             
-            </div> 
-		</div>
-	</div>
+            <div class="col-md-6 image-content">
+                <h1 class="shadow" style="font-size: 3.5em;">build anything you like...</h1>
+
+                <p style="color:#ffffff;">With StudioLite and StudioPro, you can build any presentation you want.
+                    Hey, if we are powerful enough to run <span style="font-weight: 400; color: yellow">CERN</span>, we should be able to do anything you'd like as well :)</p>
+            </div>
+        </div>
+    </div>
 </section>
+<section class="all-apps">
+    <div class="container">
+        <div class="well well-sm">
+            <div class="btn-group">
+                <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+            </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+                    class="glyphicon glyphicon-th"></span>Grid</a>
+            </div>
+        </div>
+
+        <div id="products" class="imgLoaderList row list-group">
+            <div id="sceneImportWrapper">
+                <div class="buttons">
+                </div>
+                <div id="status">
+                    <progress max="7" value="0"></progress>
+                </div>
+                <div id="image-container"></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<div class="modal modal-dialog_black fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true" style="background-color: black">
+    <div id="videoModalDialog" class="modal-dialog">
+        <div id="videoModalContent" class="modal-content modal-content_black">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span
+                        aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+            </div>
+            <center>
+
+
+            <div class="modal-body">
+                <video id="videoIntro"
+                       class="centerElement vjs-big-play-centered video-js vjs-default-skin"
+                       preload="auto"
+                       data-setup='{"controls": false, "autoplay": true}'>
+                </video>
+            </div>
+            <div class="modal-footer">
+                <button id="closeModal" type="button" class="btn-lg btn-danger center-block" data-dismiss="modal" style="width: 100px">
+                    <i style="font-size: 20px" class="fa fa-power-off "></i>
+                </button>
+                <br/>
+            </div>
+            </center>
+        </div>
+    </div>
+</div>
+
+
+<!--
+
+<script src="../../../_js/jquery.smoove.js"></script>
+<script> $('.blocks').smoove({offset:'40%'}); </script>-->
 
 <!-- MAIN_CONTENT_END -->
 
