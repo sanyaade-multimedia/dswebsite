@@ -628,6 +628,11 @@ section.media_har {
     background-color: #141414;
 }
 
+section.media_location_based {
+    padding: 0px 0px 5px 0px;
+    background-color: #fde1a8;
+}
+
 section.media_creation {
     padding: 50px 0px 20px 0px;
     background-color: #525252;
