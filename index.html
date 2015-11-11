@@ -194,6 +194,14 @@
 
 <!-- MAIN_CONTENT_START -->
 
+<script>
+  $(function () {
+    setTimeout(function(){
+      $("<style>#worldPopular:after { left:0; width:100%; }</style>").appendTo("head")
+    },3000);
+  })
+</script>
+
 <div class="list_carousel">
   <section class="banner-one">
     <div class="container">
@@ -226,7 +234,7 @@
                 Well, that’s called Digital Signage.</p>
               <p>Build an amazing presentation on your PC and push it to unlimited number of remote screens, and all for FREE.
                 <br/>So click on <a style="color: blue" href="./_html/get_started.html">Get Started</a>, open your FREE account &amp; start using
-                <br/><b>the world’s most popular Digital Signage platform!</b></p>
+                <br/><b><span id="worldPopular">the world’s most popular Digital Signage platform!</span></b></p>
             </div>
           </li>
 
